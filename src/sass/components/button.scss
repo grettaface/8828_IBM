@@ -1,0 +1,50 @@
+.button {
+  background: $primary-color;
+  color: $white;
+  cursor: pointer;
+  display: inline-flex;
+  position: relative;
+  padding: $default-spacing $default-spacing * 2;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+
+  &.disabled {
+    background: rgba($white, 0.1);
+    pointer-events: none;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    transition: all 0.15s ease-out;
+  }
+
+  &:hover {
+    &:after {
+      height: 100%;
+    }
+  }
+}
+
+.expert-pod__button {
+  background: $white;
+  color: $expert-blue;
+  font-family: 'Maison-Bold', Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.download-button {
+  color: $black;
+  font-family: 'Maison-Bold', Arial, sans-serif;
+  text-transform: uppercase;
+  width: fit-content;
+
+  img {
+    padding-left: 15px;
+  }
+}
