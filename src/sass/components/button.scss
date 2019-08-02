@@ -1,10 +1,12 @@
 .button {
   background: $primary-color;
-  color: $white;
+  color: $black;
   cursor: pointer;
   display: inline-flex;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
   position: relative;
-  padding: $default-spacing $default-spacing * 2;
+  padding: $default-spacing $default-spacing * 4;
   text-decoration: none;
   transition: all 0.3s ease-out;
 
@@ -28,23 +30,5 @@
     &:after {
       height: 100%;
     }
-  }
-}
-
-.expert-pod__button {
-  background: $white;
-  color: $expert-blue;
-  font-family: 'Maison-Bold', Arial, sans-serif;
-  text-transform: uppercase;
-}
-
-.download-button {
-  color: $black;
-  font-family: 'Maison-Bold', Arial, sans-serif;
-  text-transform: uppercase;
-  width: fit-content;
-
-  img {
-    padding-left: 15px;
   }
 }

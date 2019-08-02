@@ -8,15 +8,28 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid $white;
+
+  &.inactive {
+    border-color: transparent;
+
+    .slide-navigation__items {
+      opacity: 0;
+    }
+
+    .slide-navigation__indicator {
+      opacity: 0;
+    }
+  }
 }
 
 .slide-navigation__indicator {
-  width: 30px;
+  width: 1px;
   height: 6px;
   background: $primary-color;
   position: absolute;
   bottom: -3px;
-  transition: all 0.3s ease-out;
+  transition: all 1s ease-out;
+  opacity: 1;
 }
 
 .slide-navigation__logo {
@@ -26,6 +39,8 @@
 .slide-navigation__items {
   display: flex;
   flex: 1;
+  opacity: 1;
+  transition: all 1s ease-out;
 }
 
 .slide-navigation__item {
@@ -39,6 +54,11 @@
   padding: 0 15px;
   user-select: none;
   transition: all 0.3s ease-out;
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
 
   &.active {
     color: $primary-color;

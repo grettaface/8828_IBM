@@ -31,6 +31,7 @@ function handleError(error) {
   this.emit('end');
 }
 
+console.log($.sourcemaps);
 // SASS Styles
 gulp.task('styles', () => {
   return (
