@@ -64,13 +64,15 @@ export default class SlideNavigation {
 
     this.currentSlide = this.slides[di];
 
+    const duration = this.initial ? 0 : 1;
     // Transition slide
-    TweenLite.to(this.sceneContainer, this.initial ? 0 : 1, {
+    TweenLite.to(this.sceneContainer, duration, {
       left: 0 - $(window).width() * di,
-      ease: Power4.easeOut,
-      onComplete: () => {
-        this.slides[di].class.mount();
-      }
+      ease: Power4.easeInOut
     });
+
+    setTimeout(() => {
+      this.slides[di].class.mount();
+    }, duration * 1000 * 0.5);
   }
 }

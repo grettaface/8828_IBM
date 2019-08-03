@@ -1,9 +1,33 @@
+import $ from 'jquery';
+import { TweenMax } from 'gsap/umd/Tweenmax';
+import { Power4 } from 'gsap';
+
 export default class slide2 {
   mount() {
-    console.log('init slide 2');
+    TweenMax.fromTo(
+      $('#slide-2-bar-1'),
+      0.6,
+      {
+        width: '0%'
+      },
+      {
+        ease: Power4.easeOut,
+        width: '46%'
+      }
+    );
   }
 
   unmount() {
-    console.log('unmount slide 2');
+    TweenMax.fromTo(
+      $('#slide-2-bar-1'),
+      0.6,
+      {
+        width: '46%'
+      },
+      {
+        ease: Power4.easeIn,
+        width: '0%'
+      }
+    );
   }
 }

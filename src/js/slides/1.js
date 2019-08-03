@@ -3,10 +3,16 @@ import { TweenMax } from 'gsap/umd/Tweenmax';
 import { Power4 } from 'gsap';
 
 export default class slide1 {
+  constructor() {
+    $('.network-grid__item').click(e => {
+      console.log('clicked');
+      $('.cube', e.currentTarget).toggleClass('turnt');
+    });
+  }
+
   mount() {
-    console.log('init slide 1');
     TweenMax.fromTo(
-      $('#slide-bar-1'),
+      $('#slide-1-bar-1'),
       0.6,
       {
         width: '0%'
@@ -18,27 +24,24 @@ export default class slide1 {
     );
 
     TweenMax.fromTo(
-      $('#slide-bar-2'),
+      $('#slide-1-bar-2'),
       0.6,
       {
         width: '0%'
       },
       {
-        delay: 0.1,
-        ease: Power4.easeOut,
+        ease: Power4.easeUut,
         width: '46%'
       }
     );
   }
 
   unmount() {
-    console.log('unmount slide 1');
     TweenMax.fromTo(
-      $('#slide-bar-1'),
+      $('#slide-1-bar-1'),
       0.6,
       {
-        delay: 0.1,
-        ease: Power4.easeOut,
+        ease: Power4.easeIn,
         width: '19%'
       },
       {
@@ -47,11 +50,10 @@ export default class slide1 {
     );
 
     TweenMax.fromTo(
-      $('#slide-bar-2'),
+      $('#slide-1-bar-2'),
       0.6,
-
       {
-        ease: Power4.easeOut,
+        ease: Power4.easeIn,
         width: '46%'
       },
       {

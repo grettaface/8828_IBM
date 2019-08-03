@@ -46,9 +46,17 @@
 
 h1 {
   color: $primary-color;
-  font-size: 2.85rem;
+  font-size: 6rem;
+  padding: 0;
+  margin-bottom: 20px;
   font-family: 'Maison-Extra-Bold', Arial, sans-serif;
   margin-top: 0;
+}
+
+h2 {
+  color: $white;
+  font-size: 2rem;
+  font-family: 'Maison-Bold', Arial, sans-serif;
 }
 
 h3 {

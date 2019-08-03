@@ -1,34 +1,94 @@
-.home-content {
+.slide-one-content {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  width: 0%;
-  height: 0%;
-  overflow: hidden;
-  padding: 20px 50px 50px;
-  border: 1px solid $primary-color;
-  z-index: 1;
-  text-align: center;
-  color: white;
+  right: 0;
+  height: 100%;
+  padding: 50px 70px;
+  width: 46%;
+  display: flex;
+  flex-direction: column;
 }
 
-.home-content__header {
-  display: inline-flex;
+.network-grid {
+  flex: 1;
+}
+
+.network-grid__item {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float: left;
+  perspective: 2000px;
+  perspective-origin: 50% 100px;
+
+  .cube {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.3s cubic-bezier(0.64, 0.16, 0.46, 1.16);
+
+    &.turnt {
+      transform: rotateY(-90deg);
+
+      .right {
+        background: #222 !important;
+        border: 1px solid $primary-color;
+      }
+
+      .front {
+        background: #111 !important;
+      }
+    }
+
+    .right {
+      transform: rotateY(-270deg) translateX(100px);
+      transform-origin: top right;
+      background: #111;
+      transition: all 0.3s ease-out;
+      font-family: 'Maison-Book', Arial, sans-serif;
+      border: 1px solid transparent;
+    }
+
+    .front {
+      transform: translateZ(100px);
+      background: #222;
+      transition: all 0.3s ease-out;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .side {
+      padding: 20px;
+      position: absolute;
+      color: $white;
+      width: 200px;
+      height: 200px;
+
+      .large-icon {
+        width: 60%;
+        margin: auto;
+      }
+    }
+
+    .card-title {
+      height: auto;
+      width: auto;
+      justify-self: flex-end;
+    }
+  }
+}
+
+.card-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+}
+.card-subtitle {
+  color: $primary-color;
   font-family: 'Maison-Bold', Arial, sans-serif;
-  font-size: 1.7rem;
-  padding: 30px 150px;
-  border-bottom: 1px solid $primary-color;
-}
-
-.home-content__main-title {
-  font-size: 4rem;
-  font-family: 'Maison-Bold', Arial, sans-serif;
-  padding: 30px 0;
-}
-
-.home-content__subheader {
-  font-size: 2rem;
-  font-family: 'Maison-Book', Arial, sans-serif;
-  padding-bottom: 30px;
+  margin-bottom: 10px;
 }

@@ -88,7 +88,7 @@ export default class home {
         height: '60%',
         width: '70%',
         padding: '20px 50px 50px',
-        ease: Power4.easeOut
+        ease: Power4.easeIn
       },
       {
         delay: 0.95,
@@ -105,7 +105,7 @@ export default class home {
         delay: 0.8,
         opacity: 1,
         transform: 'translateY(0)',
-        ease: Power4.easeOut
+        ease: Power4.easeIn
       },
       {
         opacity: 0,
@@ -120,7 +120,7 @@ export default class home {
         delay: 0.65,
         opacity: 1,
         transform: 'translateY(0)',
-        ease: Power4.easeOut
+        ease: Power4.easeIn
       },
       {
         opacity: 0,
@@ -135,7 +135,7 @@ export default class home {
         delay: 0.5,
         opacity: 1,
         transform: 'translateY(0)',
-        ease: Power4.easeOut
+        ease: Power4.easeIn
       },
       {
         opacity: 0,
@@ -149,7 +149,7 @@ export default class home {
       {
         opacity: 1,
         transform: 'translateY(0)',
-        ease: Power4.easeOut
+        ease: Power4.easeIn
       },
       {
         opacity: 0,
