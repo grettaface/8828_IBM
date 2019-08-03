@@ -5,14 +5,13 @@ import { Power4 } from 'gsap';
 export default class slide1 {
   constructor() {
     $('.network-grid__item').click(e => {
-      console.log('clicked');
       $('.cube', e.currentTarget).toggleClass('turnt');
     });
   }
 
   mount() {
     TweenMax.fromTo(
-      $('#slide-1-bar-1'),
+      '#slide-1-bar-1',
       0.6,
       {
         width: '0%'
@@ -24,7 +23,7 @@ export default class slide1 {
     );
 
     TweenMax.fromTo(
-      $('#slide-1-bar-2'),
+      '#slide-1-bar-2',
       0.6,
       {
         width: '0%'
@@ -34,11 +33,42 @@ export default class slide1 {
         width: '46%'
       }
     );
+
+    TweenMax.fromTo(
+      '.slide-one-content h2',
+      0.6,
+      {
+        opacity: 0,
+        transform: 'translateY(30px)'
+      },
+      {
+        delay: 1,
+        opacity: 1,
+        transform: 'translateY(0)'
+      }
+    );
+
+    TweenMax.staggerFromTo(
+      '.network-grid__item',
+      0.6,
+      {
+        opacity: 0,
+        transform: 'translateY(30px)'
+      },
+      {
+        delay: 1,
+        opacity: 1,
+        transform: 'translateY(0)'
+      },
+      0.2
+    );
   }
 
   unmount() {
+    $('.network-grid__item .cube').removeClass('turnt');
+
     TweenMax.fromTo(
-      $('#slide-1-bar-1'),
+      '#slide-1-bar-1',
       0.6,
       {
         ease: Power4.easeIn,
@@ -50,7 +80,7 @@ export default class slide1 {
     );
 
     TweenMax.fromTo(
-      $('#slide-1-bar-2'),
+      '#slide-1-bar-2',
       0.6,
       {
         ease: Power4.easeIn,
@@ -59,6 +89,33 @@ export default class slide1 {
       {
         width: '0%'
       }
+    );
+
+    TweenMax.fromTo(
+      '.slide-one-content h2',
+      0.3,
+      {
+        opacity: 1,
+        transform: 'translateY(0)'
+      },
+      {
+        opacity: 0,
+        transform: 'translateY(30px)'
+      }
+    );
+
+    TweenMax.staggerFromTo(
+      '.network-grid__item',
+      0.3,
+      {
+        opacity: 1,
+        transform: 'translateY(0px)'
+      },
+      {
+        opacity: 0,
+        transform: 'translateY(30px)'
+      },
+      0.1
     );
   }
 }

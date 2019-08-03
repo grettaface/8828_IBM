@@ -9,7 +9,13 @@
 }
 
 .network-grid {
-  flex: 1;
+  width: 450px;
+  height: 450px;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
 }
 
 .network-grid__item {
