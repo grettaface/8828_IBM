@@ -1,4 +1,4 @@
-# Dev Boiler
+# CenturyLink Kiosk
 
 ## Structure
 All source files belong to the `src` folder. The page itself is served off the `public` folder.

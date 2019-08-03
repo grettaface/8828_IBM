@@ -5,7 +5,7 @@
   "main": "public/index.html",
   "author": "Bret Kruse",
   "license": "MIT",
-  "repository": "https://github.com/grettaface/8417_lord_interactive",
+  "repository": "https://bitbucket.org/centerlinedigital/9130-centurylink-vmworld-interactive-demos/src/master/",
   "scripts": {
     "start": "node_modules/gulp/bin/gulp.js serve",
     "build": "node_modules/gulp/bin/gulp.js build --production",
