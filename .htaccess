@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "CenturyLink"
-AuthUserFile /kunden/homepages/6/d121471271/htdocs/work/8991/.htpasswd
+AuthUserFile /kunden/homepages/6/d121471271/htdocs/work/9130/.htpasswd
 Require valid-user
