@@ -57,6 +57,19 @@ export default class slide4 {
     );
 
     TweenMax.fromTo(
+      '.globe-background',
+      0.5,
+      {
+        transform: 'translateY(30px)',
+        opacity: 0
+      },
+      {
+        transform: 'translateY(0)',
+        opacity: 1
+      }
+    );
+
+    TweenMax.fromTo(
       '.globe',
       0.8,
       {
@@ -112,5 +125,15 @@ export default class slide4 {
         ease: Power4.easeOutBack
       }
     );
+
+    TweenMax.to('.globe-background', 0.5, {
+      transform: 'translateY(30px)',
+      opacity: 0
+    });
+
+    TweenMax.to('.slide-4-content__item', 0.5, {
+      transform: 'translateY(30px)',
+      opacity: 0
+    });
   }
 }

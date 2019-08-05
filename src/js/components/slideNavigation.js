@@ -16,9 +16,9 @@ export default class SlideNavigation {
     // Populate nav
     slides.forEach((item, index) => {
       if (item.icon === null) {
-        navItems += `<div class="slide-navigation__item" data-index="${index}">${item.label}</div>`;
+        navItems += `<div class="slide-navigation__item" data-slide-index="${index}">${item.label}</div>`;
       } else {
-        navItems += `<div class="slide-navigation__item" data-index="${index}"><img src="./images/icons/${item.label}.svg" /></div>`;
+        navItems += `<div class="slide-navigation__item" data-slide-index="${index}"><img src="./images/icons/${item.label}.svg" /></div>`;
       }
     });
 
@@ -30,11 +30,11 @@ export default class SlideNavigation {
     this.sni.on('click', e => {
       const ct = $(e.currentTarget);
       this.slideIndicator(ct);
-      this.changeSlide(ct.attr('data-index'));
+      this.changeSlide(ct.attr('data-slide-index'));
     });
 
     // Trigger first item
-    this.sni[6].click();
+    this.sni[0].click();
   }
 
   // Move the indicator to the right spot
@@ -50,27 +50,33 @@ export default class SlideNavigation {
 
   // Transition the slide
   changeSlide(di) {
-    console.log('changing slide: ' + di);
-    if (di === '0') {
+    di = parseInt(di);
+
+    if (di === this.currentSlide.index && !this.initial) {
+      return;
+    }
+
+    if (di === 0) {
       $('.slide-navigation').addClass('inactive');
     } else {
       $('.slide-navigation').removeClass('inactive');
     }
 
-    this.slideIndicator($(`[data-index=${di}]`));
+    this.slideIndicator($(`[data-slide-index=${di}]`));
 
     // Unmount current slide
     if (!this.initial) this.currentSlide.class.unmount();
     this.initial = false;
 
-    this.currentSlide = this.slides[di];
-
+    console.log(this.currentSlide.index);
     const duration = this.initial ? 0 : 1;
     // Transition slide
     TweenLite.to(this.sceneContainer, duration, {
       left: 0 - $(window).width() * di,
       ease: Power4.easeInOut
     });
+
+    this.currentSlide = this.slides[di];
 
     setTimeout(() => {
       this.slides[di].class.mount();

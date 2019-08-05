@@ -64,149 +64,25 @@ export default class slide3 {
       this.video.currentTime = 0;
       this.video.play();
     });
-    // this.tl = new TimelineMax();
-    // this.tl2 = new TimelineMax();
-    // this.tl3 = new TimelineMax();
-    // this.tl4 = new TimelineMax();
-    // this.tl5 = new TimelineMax();
   }
 
   mount() {
-    // this.tl.kill();
-    // this.tl2.kill();
-    // this.tl3.kill();
-
     this.triggerAnimation();
   }
 
   unmount() {
     this.video.load();
+
+    TweenMax.to('.watch-again', 0.5, {
+      transform: 'translateY(30px)',
+      opacity: 0,
+      onComplete: () => {
+        this.wa.hide();
+      }
+    });
   }
 
   triggerAnimation() {
     this.video.play();
-    // this.tl
-    //   .fromTo(
-    //     '#arrow',
-    //     0.5,
-    //     {
-    //       opacity: 0,
-    //       transform: 'translateX(-50%) translateY(-50%) scale(0)'
-    //     },
-    //     {
-    //       delay: 0.5,
-
-    //       ease: Back.easeOut,
-    //       opacity: 1,
-    //       transform: 'translateX(-50%) translateY(-50%) scale(1)'
-    //     }
-    //   )
-    //   .to('#arrow', 2, {
-    //     rotation: 360,
-    //     repeat: -1,
-    //     transformOrigin: 'center center',
-    //     ease: Power0.easeNone,
-    //     delay: 0.5
-    //   });
-
-    // TweenMax.fromTo(
-    //   '#left-circle',
-    //   0.5,
-    //   {
-    //     left: '50%',
-    //     width: 0,
-    //     height: 0,
-    //     opacity: 0
-    //   },
-    //   {
-    //     ease: Back.easeOut,
-    //     delay: 0.6,
-    //     left: 135,
-    //     width: 270,
-    //     height: 270,
-    //     opacity: 1
-    //   }
-    // );
-
-    // TweenMax.fromTo(
-    //   '#right-circle',
-    //   0.5,
-    //   {
-    //     right: '50%',
-    //     width: 0,
-    //     height: 0,
-    //     opacity: 0
-    //   },
-    //   {
-    //     ease: Back.easeOut,
-    //     delay: 0.6,
-    //     right: 135,
-    //     width: 270,
-    //     height: 270,
-    //     opacity: 1
-    //   }
-    // );
-
-    // this.tl2.set('#chip2', { opacity: 1, delay: 2 }).fromTo(
-    //   '#chip2',
-    //   2,
-    //   {
-    //     left: 135
-    //   },
-    //   {
-    //     left: 1179,
-    //     repeat: 2,
-    //     repeatDelay: 1
-    //   }
-    // );
-
-    // this.tl4.fromTo(
-    //   $('#right-circle .circle-blip'),
-    //   1,
-    //   {
-    //     transform: 'scale(1)',
-    //     opacity: 1,
-    //     borderWidth: 3
-    //   },
-    //   {
-    //     delay: 4,
-    //     transform: 'scale(1.3)',
-    //     borderWidth: 0,
-    //     opacity: 0,
-    //     repeat: 2,
-    //     repeatDelay: 2
-    //   }
-    // );
-
-    // this.tl3.set('#chip1', { opacity: 1, delay: 2 }).fromTo(
-    //   '#chip1',
-    //   2,
-    //   {
-    //     right: 135
-    //   },
-    //   {
-    //     right: 1179,
-    //     repeat: 2,
-    //     repeatDelay: 1
-    //   }
-    // );
-
-    // this.tl5.fromTo(
-    //   $('#left-circle .circle-blip'),
-    //   1,
-    //   {
-    //     transform: 'scale(1)',
-    //     opacity: 1,
-    //     borderWidth: 3
-    //   },
-    //   {
-    //     delay: 4,
-    //     transform: 'scale(1.3)',
-    //     borderWidth: 0,
-    //     opacity: 0,
-    //     repeat: 2,
-    //     repeatDelay: 2
-    //   }
-    // );
   }
 }

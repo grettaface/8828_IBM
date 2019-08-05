@@ -4,7 +4,6 @@ import { TweenMax, Power4 } from 'gsap/umd/TweenMax';
 export default class home {
   constructor() {}
   mount() {
-    console.log('mount home');
     TweenMax.fromTo(
       $('.home-content'),
       0.5,
@@ -79,8 +78,6 @@ export default class home {
   }
 
   unmount() {
-    console.log('unmount home');
-
     TweenMax.fromTo(
       $('.home-content'),
       0.5,

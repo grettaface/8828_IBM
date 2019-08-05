@@ -61,8 +61,8 @@ export default class slide6 {
       0.2
     );
 
-    TweenMax.staggerFromTo(
-      '.slide-six .use-case__dot',
+    TweenMax.fromTo(
+      '.slide-six .use-case__dots',
       0.5,
       {
         transform: 'translateY(30px)',
@@ -72,8 +72,7 @@ export default class slide6 {
         delay: 1,
         transform: 'translateY(0)',
         opacity: 1
-      },
-      0.2
+      }
     );
 
     TweenMax.fromTo(
@@ -108,8 +107,8 @@ export default class slide6 {
       }
     );
 
-    TweenMax.staggerFromTo(
-      '.slide-six .use-case__dot',
+    TweenMax.fromTo(
+      '.slide-six .use-case__dots',
       0.5,
       {
         transform: 'translateY(0px)',
@@ -118,8 +117,7 @@ export default class slide6 {
       {
         transform: 'translateY(30px)',
         opacity: 0
-      },
-      0.2
+      }
     );
 
     TweenMax.staggerFromTo(

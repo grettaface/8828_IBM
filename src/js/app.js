@@ -12,20 +12,20 @@ import slide7 from './slides/7';
 import slide8 from './slides/8';
 
 const slideArray = [
-  { label: 'home', icon: 'home', class: new homeSlide() },
-  { label: '01', icon: null, class: new slide1() },
-  { label: '02', icon: null, class: new slide2() },
-  { label: '03', icon: null, class: new slide3() },
-  { label: '04', icon: null, class: new slide4() },
-  { label: '05', icon: null, class: new slide5() },
-  { label: '06', icon: null, class: new slide6() },
-  { label: '07', icon: null, class: new slide7() },
-  { label: '08', icon: null, class: new slide8() }
+  { label: 'home', icon: 'home', index: 0, class: new homeSlide() },
+  { label: '01', icon: null, index: 1, class: new slide1() },
+  { label: '02', icon: null, index: 2, class: new slide2() },
+  { label: '03', icon: null, index: 3, class: new slide3() },
+  { label: '04', icon: null, index: 4, class: new slide4() },
+  { label: '05', icon: null, index: 5, class: new slide5() },
+  { label: '06', icon: null, index: 6, class: new slide6() },
+  { label: '07', icon: null, index: 7, class: new slide7() },
+  { label: '08', icon: null, index: 8, class: new slide8() }
 ];
 
 let slideNavigation;
 
-let timeoutInterval = 15000;
+let timeoutInterval = 30000;
 let resetTimeout;
 
 $(document).ready(function() {
