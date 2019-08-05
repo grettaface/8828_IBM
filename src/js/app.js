@@ -25,6 +25,9 @@ const slideArray = [
 
 let slideNavigation;
 
+let timeoutInterval = 15000;
+let resetTimeout;
+
 $(document).ready(function() {
   slideNavigation = new SlideNavigation({
     element: $('.slide-navigation'),
@@ -34,4 +37,16 @@ $(document).ready(function() {
   $('.get-started').on('click', () => {
     slideNavigation.changeSlide(1);
   });
+
+  $('html').on('click', e => {
+    // Check for user initiated click
+    if (e.screenX > 0) startTimeout();
+  });
 });
+
+function startTimeout() {
+  clearInterval(resetTimeout);
+  resetTimeout = setTimeout(() => {
+    slideNavigation.changeSlide('0');
+  }, timeoutInterval);
+}

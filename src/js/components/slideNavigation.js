@@ -34,7 +34,7 @@ export default class SlideNavigation {
     });
 
     // Trigger first item
-    this.sni[0].click();
+    this.sni[6].click();
   }
 
   // Move the indicator to the right spot
@@ -50,6 +50,7 @@ export default class SlideNavigation {
 
   // Transition the slide
   changeSlide(di) {
+    console.log('changing slide: ' + di);
     if (di === '0') {
       $('.slide-navigation').addClass('inactive');
     } else {

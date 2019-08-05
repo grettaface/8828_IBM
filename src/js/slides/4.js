@@ -1,6 +1,6 @@
 import $ from 'jquery';
 import { TweenMax } from 'gsap/umd/Tweenmax';
-import { Power4 } from 'gsap';
+import { Back } from 'gsap';
 
 export default class slide4 {
   mount() {
@@ -25,6 +25,49 @@ export default class slide4 {
       {
         ease: Power4.easeOut,
         width: '46%'
+      }
+    );
+
+    TweenMax.fromTo(
+      '.slide-4-content h2',
+      0.6,
+      {
+        opacity: 0,
+        transform: 'translateY(30px)'
+      },
+      {
+        opacity: 1,
+        transform: 'translateY(0)'
+      }
+    );
+
+    TweenMax.staggerFromTo(
+      '.slide-4-content__item',
+      0.6,
+      {
+        opacity: 0,
+        transform: 'translateY(30px)'
+      },
+      {
+        delay: 0.5,
+        opacity: 1,
+        transform: 'translateY(0)'
+      },
+      0.2
+    );
+
+    TweenMax.fromTo(
+      '.globe',
+      0.8,
+      {
+        opacity: 0,
+        transform: 'translateX(-50%) translateY(-50%) scale(0)'
+      },
+      {
+        delay: 1,
+        opacity: 1,
+        transform: 'translateX(-50%) translateY(-50%) scale(1)',
+        ease: Back.easeOut
       }
     );
   }
@@ -52,6 +95,21 @@ export default class slide4 {
       },
       {
         width: '0%'
+      }
+    );
+
+    TweenMax.fromTo(
+      '.globe',
+      0.8,
+      {
+        opacity: 1,
+        transform: 'translateX(-50%) translateY(-50%) scale(1)'
+      },
+      {
+        opacity: 0,
+        transform: 'translateX(-50%) translateY(-50%) scale(0)',
+
+        ease: Power4.easeOutBack
       }
     );
   }
