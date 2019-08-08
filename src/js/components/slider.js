@@ -6,13 +6,11 @@ export default class Slider {
   }
 
   setSlide(index) {
-    console.log('setting slide');
     this.slides.removeClass('active');
     $(this.slides[index]).addClass('active');
   }
 
   reset() {
-    console.log('Resetting');
     this.setSlide(0);
   }
 }

@@ -161,7 +161,6 @@ export default class slide6 {
   }
 
   dotSelected(dot) {
-    console.log(dot);
     this.slider.setSlide(parseInt(dot));
   }
 }
