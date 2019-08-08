@@ -1,0 +1,67 @@
+.slide {
+  width: 100vw;
+  height: 100vh;
+  background: $black;
+  position: relative;
+}
+
+.slide-covered {
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+  }
+}
+
+.slide-home {
+  background: $black url('../images/backgrounds/1.jpg') no-repeat 0 0;
+  background-size: cover;
+  background-position: center center;
+}
+
+.slide-one {
+  background: $black url('../images/backgrounds/2.jpg') no-repeat 0 0;
+  background-size: cover;
+  background-position: left center;
+}
+
+.slide-two {
+  background: $black url('../images/backgrounds/3.jpg') no-repeat 0 0;
+  background-size: cover;
+  background-position: center center;
+}
+
+.slide-four {
+  background: $black url('../images/backgrounds/4.jpg') no-repeat 0 0;
+  background-size: cover;
+  background-position: left center;
+}
+
+.slide-six {
+  background: $black url('../images/backgrounds/5.jpg') no-repeat 0 0;
+  background-size: cover;
+  background-position: center center;
+}
+
+.slide-seven {
+  background: $black url('../images/backgrounds/6.jpg') no-repeat 0 0;
+  background-size: cover;
+  background-position: center center;
+}
+
+.slide-eight {
+  background: $black url('../images/backgrounds/7.jpg') no-repeat 0 0;
+  background-size: cover;
+  background-position: center center;
+}
+
+.slide-bar {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  height: 100%;
+}

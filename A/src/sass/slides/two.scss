@@ -1,0 +1,101 @@
+#slide-one-bar-1 {
+  left: 0;
+}
+
+#slide-one-bar-2 {
+  right: 0;
+}
+
+.slide-two-content {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  padding: 50px 70px;
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+}
+
+.owner-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.owner-grid__item {
+  position: relative;
+  width: 640px;
+  height: 180px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+
+  .card-container {
+    flex: 1;
+    text-align: left;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-subtitle {
+    color: $white;
+    margin: 0;
+  }
+
+  .cube {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.3s cubic-bezier(0.64, 0.16, 0.46, 1.16);
+
+    &.turnt {
+      transform: rotateY(-90deg);
+
+      .right {
+        background: #222 !important;
+        border: 1px solid $primary-color;
+      }
+
+      .front {
+        background: #111 !important;
+      }
+    }
+
+    .right {
+      transform: rotateY(-270deg) translateX(320px);
+      transform-origin: top right;
+      background: #111;
+      transition: all 0.3s ease-out;
+      font-family: 'Maison-Book', Arial, sans-serif;
+      border: 1px solid transparent;
+      display: flex;
+      align-items: center;
+    }
+
+    .front {
+      transform: translateZ(320px);
+      background: #222;
+      transition: all 0.3s ease-out;
+      text-align: center;
+      display: flex;
+    }
+
+    .side {
+      padding: 35px;
+      position: absolute;
+      color: $white;
+      width: 640px;
+      height: 180px;
+      display: flex;
+      font-size: 1.666rem;
+
+      .large-icon {
+        display: inline-block;
+        height: 100%;
+      }
+    }
+
+    .card-title {
+      height: auto;
+      width: auto;
+    }
+  }
+}
