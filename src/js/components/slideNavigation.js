@@ -68,8 +68,7 @@ export default class SlideNavigation {
     if (!this.initial) this.currentSlide.class.unmount();
     this.initial = false;
 
-    console.log(this.currentSlide.index);
-    const duration = this.initial ? 0 : 1;
+    const duration = this.initial ? 0 : 2;
     // Transition slide
     TweenLite.to(this.sceneContainer, duration, {
       left: 0 - $(window).width() * di,

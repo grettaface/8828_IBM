@@ -32,34 +32,6 @@ export default class slide3 {
       });
     };
 
-    this.video.ontimeupdate = e => {
-      let ct = this.video.currentTime;
-
-      if (ct < 3.8) {
-        $('.slide-three h3').html('Data Center to Data Center');
-      }
-
-      if (ct > 3.8 && ct < 5) {
-        $('.slide-three h3').html('Data Center to Cloud');
-      }
-
-      if (ct > 5 && ct < 6.3) {
-        $('.slide-three h3').html('Cloud to Cloud');
-      }
-
-      if (ct > 6.3 && ct < 7.6) {
-        $('.slide-three h3').html('Cloud to On-Prem');
-      }
-
-      if (ct > 7.6 && ct < 9) {
-        $('.slide-three h3').html('On-prem to On-Prem');
-      }
-
-      if (ct > 9) {
-        $('.slide-three h3').html('On-prem to Data Center');
-      }
-    };
-
     this.wa.on('click', () => {
       this.video.currentTime = 0;
       this.video.play();
@@ -71,7 +43,7 @@ export default class slide3 {
   }
 
   unmount() {
-    this.video.load();
+    this.video.pause();
 
     TweenMax.to('.watch-again', 0.5, {
       transform: 'translateY(30px)',
@@ -83,6 +55,7 @@ export default class slide3 {
   }
 
   triggerAnimation() {
+    this.video.currentTime = 0;
     this.video.play();
   }
 }

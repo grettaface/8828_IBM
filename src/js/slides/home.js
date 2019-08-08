@@ -84,11 +84,10 @@ export default class home {
       {
         height: '60%',
         width: '70%',
-        padding: '20px 50px 50px',
-        ease: Power4.easeIn
+        padding: '20px'
       },
       {
-        delay: 0.95,
+        delay: 2,
         height: '0%',
         padding: '0',
         width: '0%'
@@ -101,8 +100,7 @@ export default class home {
       {
         delay: 0.8,
         opacity: 1,
-        transform: 'translateY(0)',
-        ease: Power4.easeIn
+        transform: 'translateY(0)'
       },
       {
         opacity: 0,
@@ -116,8 +114,7 @@ export default class home {
       {
         delay: 0.65,
         opacity: 1,
-        transform: 'translateY(0)',
-        ease: Power4.easeIn
+        transform: 'translateY(0)'
       },
       {
         opacity: 0,
@@ -131,8 +128,7 @@ export default class home {
       {
         delay: 0.5,
         opacity: 1,
-        transform: 'translateY(0)',
-        ease: Power4.easeIn
+        transform: 'translateY(0)'
       },
       {
         opacity: 0,
@@ -145,8 +141,7 @@ export default class home {
 
       {
         opacity: 1,
-        transform: 'translateY(0)',
-        ease: Power4.easeIn
+        transform: 'translateY(0)'
       },
       {
         opacity: 0,

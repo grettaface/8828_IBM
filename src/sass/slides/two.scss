@@ -1,8 +1,8 @@
-#slide-1-bar-1 {
+#slide-one-bar-1 {
   left: 0;
 }
 
-#slide-1-bar-2 {
+#slide-one-bar-2 {
   right: 0;
 }
 
@@ -17,20 +17,16 @@
 }
 
 .owner-grid {
-  width: 450px;
   display: flex;
   flex-direction: column;
-  margin: auto;
 }
 
 .owner-grid__item {
   position: relative;
-  width: 400px;
-  height: 120px;
+  width: 640px;
+  height: 180px;
   margin-right: 20px;
   margin-bottom: 40px;
-  perspective: 2000px;
-  perspective-origin: 50% 60px;
 
   .card-container {
     flex: 1;
@@ -64,7 +60,7 @@
     }
 
     .right {
-      transform: rotateY(-270deg) translateX(200px);
+      transform: rotateY(-270deg) translateX(320px);
       transform-origin: top right;
       background: #111;
       transition: all 0.3s ease-out;
@@ -75,7 +71,7 @@
     }
 
     .front {
-      transform: translateZ(200px);
+      transform: translateZ(320px);
       background: #222;
       transition: all 0.3s ease-out;
       text-align: center;
@@ -83,12 +79,13 @@
     }
 
     .side {
-      padding: 20px;
+      padding: 35px;
       position: absolute;
       color: $white;
-      width: 400px;
-      height: 120px;
+      width: 640px;
+      height: 180px;
       display: flex;
+      font-size: 1.666rem;
 
       .large-icon {
         display: inline-block;

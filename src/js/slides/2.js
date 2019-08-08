@@ -10,7 +10,7 @@ export default class slide2 {
   }
   mount() {
     TweenMax.fromTo(
-      $('#slide-2-bar-1'),
+      $('#slide-two-bar-1'),
       0.6,
       {
         width: '0%'
@@ -54,7 +54,7 @@ export default class slide2 {
     $('.owner-grid__item .cube').removeClass('turnt');
 
     TweenMax.fromTo(
-      $('#slide-2-bar-1'),
+      $('#slide-two-bar-1'),
       0.6,
       {
         width: '46%'

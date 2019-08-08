@@ -9,19 +9,20 @@
 }
 
 .network-grid {
-  width: 450px;
-  height: 450px;
   display: flex;
+  width: 650px;
+  flex: 1;
   margin: auto;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: space-between;
+  justify-content: space-around;
+  align-content: space-around;
+  padding-bottom: 50px;
 }
 
 .network-grid__item {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 280px;
+  height: 280px;
   margin-right: 20px;
   margin-bottom: 20px;
   float: left;
@@ -47,16 +48,17 @@
     }
 
     .right {
-      transform: rotateY(-270deg) translateX(100px);
+      transform: rotateY(-270deg) translateX(140px);
       transform-origin: top right;
       background: #111;
       transition: all 0.3s ease-out;
       font-family: 'Maison-Book', Arial, sans-serif;
+      font-size: 1.666rem;
       border: 1px solid transparent;
     }
 
     .front {
-      transform: translateZ(100px);
+      transform: translateZ(140px);
       background: #222;
       transition: all 0.3s ease-out;
       text-align: center;
@@ -69,8 +71,8 @@
       padding: 20px;
       position: absolute;
       color: $white;
-      width: 200px;
-      height: 200px;
+      width: 280px;
+      height: 280px;
 
       .large-icon {
         width: 60%;
@@ -79,6 +81,7 @@
     }
 
     .card-title {
+      font-size: 2rem;
       height: auto;
       width: auto;
       justify-self: flex-end;
@@ -93,6 +96,7 @@
   width: 15px;
   height: 15px;
 }
+
 .card-subtitle {
   color: $primary-color;
   font-family: 'Maison-Bold', Arial, sans-serif;

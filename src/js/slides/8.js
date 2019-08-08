@@ -74,7 +74,7 @@ export default class slide8 {
       }
     );
 
-    TweenMax.staggerFromTo(
+    TweenMax.fromTo(
       '.slide-eight .sidebar-pod',
       0.5,
       {
@@ -84,8 +84,7 @@ export default class slide8 {
       {
         transform: 'translateY(30px)',
         opacity: 0
-      },
-      0.2
+      }
     );
 
     TweenMax.fromTo(

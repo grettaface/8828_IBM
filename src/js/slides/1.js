@@ -11,7 +11,7 @@ export default class slide1 {
 
   mount() {
     TweenMax.fromTo(
-      '#slide-1-bar-1',
+      '#slide-one-bar-1',
       0.6,
       {
         width: '0%'
@@ -23,7 +23,7 @@ export default class slide1 {
     );
 
     TweenMax.fromTo(
-      '#slide-1-bar-2',
+      '#slide-one-bar-2',
       0.6,
       {
         width: '0%'
@@ -68,7 +68,7 @@ export default class slide1 {
     $('.network-grid__item .cube').removeClass('turnt');
 
     TweenMax.fromTo(
-      '#slide-1-bar-1',
+      '#slide-one-bar-1',
       0.6,
       {
         ease: Power4.easeIn,
@@ -80,7 +80,7 @@ export default class slide1 {
     );
 
     TweenMax.fromTo(
-      '#slide-1-bar-2',
+      '#slide-one-bar-2',
       0.6,
       {
         ease: Power4.easeIn,

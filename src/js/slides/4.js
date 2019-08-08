@@ -5,7 +5,7 @@ import { Back } from 'gsap';
 export default class slide4 {
   mount() {
     TweenMax.fromTo(
-      $('#slide-4-bar-1'),
+      $('#slide-four-bar-1'),
       0.6,
       {
         width: '0%'
@@ -17,7 +17,7 @@ export default class slide4 {
     );
 
     TweenMax.fromTo(
-      $('#slide-4-bar-2'),
+      $('#slide-four-bar-2'),
       0.6,
       {
         width: '0%'
@@ -29,7 +29,7 @@ export default class slide4 {
     );
 
     TweenMax.fromTo(
-      '.slide-4-content h2',
+      '.slide-four-content h2',
       0.6,
       {
         opacity: 0,
@@ -42,7 +42,7 @@ export default class slide4 {
     );
 
     TweenMax.staggerFromTo(
-      '.slide-4-content__item',
+      '.slide-four-content__item',
       0.6,
       {
         opacity: 0,
@@ -87,7 +87,7 @@ export default class slide4 {
 
   unmount() {
     TweenMax.fromTo(
-      $('#slide-4-bar-1'),
+      $('#slide-four-bar-1'),
       0.6,
       {
         ease: Power4.easeIn,
@@ -99,7 +99,7 @@ export default class slide4 {
     );
 
     TweenMax.fromTo(
-      $('#slide-4-bar-2'),
+      $('#slide-four-bar-2'),
       0.6,
 
       {
@@ -108,6 +108,19 @@ export default class slide4 {
       },
       {
         width: '0%'
+      }
+    );
+
+    TweenMax.fromTo(
+      '.slide-four-content h2',
+      0.6,
+      {
+        opacity: 1,
+        transform: 'translateY(0px)'
+      },
+      {
+        opacity: 0,
+        transform: 'translateY(30px)'
       }
     );
 
@@ -131,7 +144,7 @@ export default class slide4 {
       opacity: 0
     });
 
-    TweenMax.to('.slide-4-content__item', 0.5, {
+    TweenMax.to('.slide-four-content__item', 0.5, {
       transform: 'translateY(30px)',
       opacity: 0
     });

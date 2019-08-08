@@ -12,7 +12,7 @@
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 3.714rem;
     margin: 0;
     opacity: 0;
   }
@@ -34,28 +34,31 @@
 .sidebar-pod {
   color: $white;
   font-family: 'Maison-Book', Arial, sans-serif;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   opacity: 0;
 
   h3 {
     color: $primary-color;
+    font-size: 2rem;
     opacity: 1;
   }
 
   p {
     margin-top: 0;
+    font-size: 1.5rem;
   }
 }
 
 .use-case__dots {
   display: flex;
   opacity: 0;
+  padding-top: 30px;
 }
 
 .use-case__dot {
   width: 40px;
   height: 40px;
-  border: 1px solid $white;
+  border: 3px solid $white;
   transition: all 0.3s ease-out;
   border-radius: 20px;
   margin-right: 20px;

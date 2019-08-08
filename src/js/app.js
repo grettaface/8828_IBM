@@ -25,7 +25,7 @@ const slideArray = [
 
 let slideNavigation;
 
-let timeoutInterval = 30000;
+let timeoutInterval = 120000;
 let resetTimeout;
 
 $(document).ready(function() {

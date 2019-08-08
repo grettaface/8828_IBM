@@ -11,6 +11,10 @@
   z-index: 1;
   text-align: center;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-content__header {
@@ -22,13 +26,17 @@
 }
 
 .home-content__main-title {
-  font-size: 4rem;
+  font-size: 6.4rem;
   font-family: 'Maison-Bold', Arial, sans-serif;
   padding: 30px 0;
 }
 
 .home-content__subheader {
-  font-size: 2rem;
+  font-size: 3.4rem;
   font-family: 'Maison-Book', Arial, sans-serif;
   padding-bottom: 30px;
+}
+
+.get-started {
+  width: max-content;
 }
