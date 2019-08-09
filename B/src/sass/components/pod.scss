@@ -1,0 +1,16 @@
+.slide-pod {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  opacity: 0;
+}
+
+.slide-pod__content {
+  padding-left: 50px;
+}
+
+.slide-pod-title {
+  font-size: 2rem;
+  font-family: 'Maison-Bold', Arial, sans-serif;
+  padding-bottom: 10px;
+}

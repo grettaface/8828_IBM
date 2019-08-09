@@ -1,0 +1,114 @@
+#slide-three-bar-1 {
+  left: 0;
+}
+
+#slide-three-bar-2 {
+  right: 0;
+}
+
+.slide-three-content {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  padding: 50px 70px;
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+}
+
+.network-grid {
+  display: flex;
+  width: 650px;
+  flex: 1;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  padding-bottom: 50px;
+}
+
+.network-grid__item {
+  // opacity: 0;
+  position: relative;
+  width: 280px;
+  height: 280px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float: left;
+  perspective: 2000px;
+  perspective-origin: 50% 100px;
+
+  .cube {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.3s cubic-bezier(0.64, 0.16, 0.46, 1.16);
+
+    &.turnt {
+      transform: rotateY(-90deg);
+
+      .right {
+        background: #222 !important;
+        border: 1px solid $primary-color;
+      }
+
+      .front {
+        background: #111 !important;
+      }
+    }
+
+    .right {
+      transform: rotateY(-270deg) translateX(140px);
+      transform-origin: top right;
+      background: #111;
+      transition: all 0.3s ease-out;
+      font-family: 'Maison-Book', Arial, sans-serif;
+      font-size: 1.666rem;
+      border: 1px solid transparent;
+    }
+
+    .front {
+      transform: translateZ(140px);
+      background: #222;
+      transition: all 0.3s ease-out;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .side {
+      font-size: 1.285rem;
+      padding: 20px;
+      position: absolute;
+      color: $white;
+      width: 280px;
+      height: 280px;
+
+      .large-icon {
+        width: 50%;
+        margin: auto;
+      }
+    }
+
+    .card-title {
+      font-size: 2rem;
+      height: auto;
+      width: auto;
+      justify-self: flex-end;
+    }
+  }
+}
+
+.card-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+.card-subtitle {
+  color: $primary-color;
+  font-family: 'Maison-Bold', Arial, sans-serif;
+  margin-bottom: 10px;
+}
