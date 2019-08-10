@@ -3,13 +3,19 @@
   align-items: center;
   padding: 20px 0;
   opacity: 0;
+
+  img {
+    height: 130px;
+  }
 }
 
 .slide-pod__content {
+  flex: 1;
   padding-left: 50px;
 }
 
 .slide-pod-title {
+  color: $primary-color;
   font-size: 2rem;
   font-family: 'Maison-Bold', Arial, sans-serif;
   padding-bottom: 10px;

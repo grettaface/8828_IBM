@@ -5,6 +5,7 @@ import { Power4 } from 'gsap';
 export default class slide3 {
   constructor() {
     $('.network-grid__item').click(e => {
+      $('.cube').removeClass('turnt');
       $('.cube', e.currentTarget).toggleClass('turnt');
     });
   }

@@ -27,7 +27,7 @@ export default class slide1 {
         transform: 'translateY(30px)'
       },
       {
-        delay: 0.2,
+        delay: 0.5,
         ease: Power4.easeOut,
         opacity: 1,
         transform: 'translateY(0)'

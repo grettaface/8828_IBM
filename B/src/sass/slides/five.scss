@@ -11,7 +11,7 @@
 
 .network-partner__header {
   color: $primary-color;
-  font-size: 5rem;
+  font-size: 6rem;
   margin: 0 0 40px;
 }
 
@@ -22,12 +22,18 @@
 
 .network-partner__sidebar {
   flex: 1.1;
+  display: flex;
+  align-items: center;
 }
 
 .network-partner__content {
   flex: 2;
   display: flex;
   align-self: center;
+}
+
+.network-partner__sidebar__content {
+  max-width: 400px;
 }
 
 .network-partner-pod {
