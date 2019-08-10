@@ -4,19 +4,33 @@ import { Power4 } from 'gsap';
 
 export default class slide2 {
   constructor() {
-    $('.owner-grid__item').click(e => {
+    $('.slide-two .network-grid__item').click(e => {
+      $('.slide-two .cube').removeClass('turnt');
       $('.cube', e.currentTarget).toggleClass('turnt');
     });
   }
+
   mount() {
     TweenMax.fromTo(
-      $('#slide-two-bar-1'),
+      '#slide-two-bar-1',
       0.6,
       {
         width: '0%'
       },
       {
         ease: Power4.easeOut,
+        width: '19%'
+      }
+    );
+
+    TweenMax.fromTo(
+      '#slide-two-bar-2',
+      0.6,
+      {
+        width: '0%'
+      },
+      {
+        ease: Power4.easeUut,
         width: '46%'
       }
     );
@@ -29,20 +43,21 @@ export default class slide2 {
         transform: 'translateY(30px)'
       },
       {
+        delay: 1,
         opacity: 1,
         transform: 'translateY(0)'
       }
     );
 
     TweenMax.staggerFromTo(
-      '.owner-grid__item',
+      '.network-grid__item',
       0.6,
       {
         opacity: 0,
         transform: 'translateY(30px)'
       },
       {
-        delay: 0.5,
+        delay: 1,
         opacity: 1,
         transform: 'translateY(0)'
       },
@@ -51,23 +66,35 @@ export default class slide2 {
   }
 
   unmount() {
-    $('.owner-grid__item .cube').removeClass('turnt');
+    $('.network-grid__item .cube').removeClass('turnt');
 
     TweenMax.fromTo(
-      $('#slide-two-bar-1'),
+      '#slide-two-bar-1',
       0.6,
       {
+        ease: Power4.easeIn,
+        width: '19%'
+      },
+      {
+        width: '0%'
+      }
+    );
+
+    TweenMax.fromTo(
+      '#slide-two-bar-2',
+      0.6,
+      {
+        ease: Power4.easeIn,
         width: '46%'
       },
       {
-        ease: Power4.easeIn,
         width: '0%'
       }
     );
 
     TweenMax.fromTo(
       '.slide-two-content h2',
-      0.6,
+      0.3,
       {
         opacity: 1,
         transform: 'translateY(0)'
@@ -79,7 +106,7 @@ export default class slide2 {
     );
 
     TweenMax.staggerFromTo(
-      '.owner-grid__item',
+      '.network-grid__item',
       0.3,
       {
         opacity: 1,

@@ -1,6 +1,6 @@
 .slide-one-content {
   position: absolute;
-  right: 0;
+  left: 0;
   height: 100%;
   padding: 50px 70px;
   width: 46%;
@@ -8,26 +8,31 @@
   flex-direction: column;
 }
 
-.network-grid {
+.owner-grid {
   display: flex;
-  width: 650px;
-  flex: 1;
-  margin: auto;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: space-around;
-  padding-bottom: 50px;
+  flex-direction: column;
 }
 
-.network-grid__item {
+.owner-grid__item {
   position: relative;
-  width: 280px;
-  height: 280px;
+  opacity: 0;
+  width: 640px;
+  height: 180px;
   margin-right: 20px;
-  margin-bottom: 20px;
-  float: left;
-  perspective: 2000px;
-  perspective-origin: 50% 100px;
+  margin-bottom: 40px;
+
+  .card-container {
+    flex: 1;
+    text-align: left;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-subtitle {
+    color: $white;
+    margin: 0;
+  }
 
   .cube {
     position: relative;
@@ -48,57 +53,42 @@
     }
 
     .right {
-      transform: rotateY(-270deg) translateX(140px);
+      transform: rotateY(-270deg) translateX(320px);
       transform-origin: top right;
       background: #111;
       transition: all 0.3s ease-out;
       font-family: 'Maison-Book', Arial, sans-serif;
-      font-size: 1.666rem;
       border: 1px solid transparent;
+      display: flex;
+      align-items: center;
     }
 
     .front {
-      transform: translateZ(140px);
+      transform: translateZ(320px);
       background: #222;
       transition: all 0.3s ease-out;
       text-align: center;
       display: flex;
-      flex-direction: column;
-      justify-content: space-between;
     }
 
     .side {
-      padding: 20px;
+      padding: 35px;
       position: absolute;
       color: $white;
-      width: 280px;
-      height: 280px;
+      width: 640px;
+      height: 180px;
+      display: flex;
+      font-size: 1.666rem;
 
       .large-icon {
-        width: 60%;
-        margin: auto;
+        display: inline-block;
+        height: 100%;
       }
     }
 
     .card-title {
-      font-size: 2rem;
       height: auto;
       width: auto;
-      justify-self: flex-end;
     }
   }
-}
-
-.card-close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 15px;
-  height: 15px;
-}
-
-.card-subtitle {
-  color: $primary-color;
-  font-family: 'Maison-Bold', Arial, sans-serif;
-  margin-bottom: 10px;
 }
