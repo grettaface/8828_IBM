@@ -10,7 +10,7 @@
   position: absolute;
   right: 0;
   height: 100%;
-  padding: 50px 120px;
+  padding: 3.5rem 8.5rem;
   width: 46%;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,6 @@
 
 .network-grid {
   display: flex;
-  width: 650px;
   flex: 1;
   margin: auto;
   flex-wrap: wrap;
@@ -29,10 +28,10 @@
 
 .network-grid__item {
   position: relative;
-  width: 280px;
-  height: 280px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  width: 20rem;
+  height: 20rem;
+  margin-right: 1.4rem;
+  margin-bottom: 1.4rem;
   float: left;
   perspective: 2000px;
   perspective-origin: 50% 100px;
@@ -56,7 +55,7 @@
     }
 
     .right {
-      transform: rotateY(-270deg) translateX(140px);
+      transform: rotateY(-270deg) translateX(10rem);
       transform-origin: top right;
       background: #111;
       transition: all 0.3s ease-out;
@@ -66,7 +65,7 @@
     }
 
     .front {
-      transform: translateZ(140px);
+      transform: translateZ(10rem);
       background: #222;
       transition: all 0.3s ease-out;
       text-align: center;
@@ -76,11 +75,11 @@
     }
 
     .side {
-      padding: 20px;
+      padding: 1.4rem;
       position: absolute;
       color: $white;
-      width: 280px;
-      height: 280px;
+      width: 20rem;
+      height: 20rem;
 
       .large-icon {
         width: 60%;

@@ -5,10 +5,15 @@ import { Power4 } from 'gsap';
 export default class slide1 {
   constructor() {
     $('.slide-one .owner-grid__item').click(e => {
+      const isTurnt = $('.cube', e.currentTarget).hasClass('turnt');
       $('.slide-one .cube').removeClass('turnt');
-      $('.cube', e.currentTarget).toggleClass('turnt');
+      // $('.cube', e.currentTarget).toggleClass('turnt');
+      if (!isTurnt) {
+        $('.cube', e.currentTarget).addClass('turnt');
+      }
     });
   }
+
   mount() {
     TweenMax.fromTo(
       $('#slide-one-bar-1'),

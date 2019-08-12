@@ -13,11 +13,13 @@
   color: $primary-color;
   font-size: 6rem;
   margin: 0 0 40px;
+  opacity: 0;
 }
 
 .network-partner__subheader {
   font-size: 2.2rem;
   color: $white;
+  opacity: 0;
 }
 
 .network-partner__sidebar {
@@ -41,10 +43,12 @@
   flex: 1;
   align-items: center;
   flex-direction: column;
-  padding: 0 30px;
+  padding: 0 2.142rem;
+  opacity: 0;
 }
 
 .network-partner-icon {
+  height: 17.85rem;
   padding-bottom: 20px;
 }
 

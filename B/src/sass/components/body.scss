@@ -1,6 +1,10 @@
 html {
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 8px;
+
+  @media screen and (min-width: 1400px) {
+    font-size: 14px;
+  }
 }
 *,
 *:before,

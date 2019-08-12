@@ -16,15 +16,15 @@
 .owner-grid__item {
   position: relative;
   opacity: 0;
-  width: 640px;
-  height: 180px;
-  margin-right: 20px;
-  margin-bottom: 40px;
+  width: 45rem;
+  height: 12.85rem;
+  margin-right: 1.4rem;
+  margin-bottom: 2.85rem;
 
   .card-container {
     flex: 1;
     text-align: left;
-    padding-left: 30px;
+    padding-left: 2rem;
     display: flex;
     flex-direction: column;
   }
@@ -53,7 +53,7 @@
     }
 
     .right {
-      transform: rotateY(-270deg) translateX(320px);
+      transform: rotateY(-270deg) translateX(22.85rem);
       transform-origin: top right;
       background: #111;
       transition: all 0.3s ease-out;
@@ -64,7 +64,7 @@
     }
 
     .front {
-      transform: translateZ(320px);
+      transform: translateZ(22.85rem);
       background: #222;
       transition: all 0.3s ease-out;
       text-align: center;
@@ -72,11 +72,11 @@
     }
 
     .side {
-      padding: 35px;
+      padding: 2.5rem;
       position: absolute;
       color: $white;
-      width: 640px;
-      height: 180px;
+      width: 45rem;
+      height: 12.85rem;
       display: flex;
       font-size: 1.666rem;
 

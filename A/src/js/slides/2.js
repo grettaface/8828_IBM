@@ -5,8 +5,12 @@ import { Power4 } from 'gsap';
 export default class slide2 {
   constructor() {
     $('.slide-two .network-grid__item').click(e => {
+      const isTurnt = $('.cube', e.currentTarget).hasClass('turnt');
       $('.slide-two .cube').removeClass('turnt');
-      $('.cube', e.currentTarget).toggleClass('turnt');
+      // $('.cube', e.currentTarget).toggleClass('turnt');
+      if (!isTurnt) {
+        $('.cube', e.currentTarget).addClass('turnt');
+      }
     });
   }
 

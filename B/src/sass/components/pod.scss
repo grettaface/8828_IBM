@@ -1,22 +1,22 @@
 .slide-pod {
   display: flex;
   align-items: center;
-  padding: 20px 0;
+  padding: 1.42rem 0;
   opacity: 0;
 
   img {
-    height: 130px;
+    height: 9.285rem;
   }
 }
 
 .slide-pod__content {
   flex: 1;
-  padding-left: 50px;
+  padding-left: 3.5rem;
 }
 
 .slide-pod-title {
   color: $primary-color;
   font-size: 2rem;
   font-family: 'Maison-Bold', Arial, sans-serif;
-  padding-bottom: 10px;
+  padding-bottom: 0.714rem;
 }

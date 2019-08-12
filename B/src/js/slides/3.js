@@ -5,13 +5,16 @@ import { Power4 } from 'gsap';
 export default class slide3 {
   constructor() {
     $('.network-grid__item').click(e => {
+      const isTurnt = $('.cube', e.currentTarget).hasClass('turnt');
       $('.cube').removeClass('turnt');
-      $('.cube', e.currentTarget).toggleClass('turnt');
+
+      if (!isTurnt) {
+        $('.cube', e.currentTarget).addClass('turnt');
+      }
     });
   }
 
   mount() {
-    console.log('here');
     TweenMax.fromTo(
       '#slide-three-bar-1',
       0.6,
