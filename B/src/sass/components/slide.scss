@@ -2,6 +2,7 @@
   width: 100vw;
   height: 100vh;
   background: $black;
+  padding: 50px 120px;
   position: relative;
 }
 
@@ -42,7 +43,7 @@
 }
 
 .slide-five {
-  background: $black url('../images/backgrounds/5.png') no-repeat 0 0;
+  background: $black url('../images/backgrounds/5.jpg') no-repeat 0 0;
   background-size: cover;
   background-position: center center;
 }
@@ -51,5 +52,6 @@
   position: absolute;
   background: rgba(0, 0, 0, 0.8);
   top: 0;
+  // left: 0;
   height: 100%;
 }

@@ -1,12 +1,17 @@
+#slide-four-bar-1 {
+  left: 0;
+}
+
 .slide-four {
   display: flex;
+  justify-content: space-between;
 }
 
 .slide-four-content {
-  width: 50%;
+  width: 41%;
   font-family: 'Maison-Book', Arial, sans-serif;
   font-size: 1.5rem;
-  padding: 3.5rem 8.5rem;
+  // padding: 3.5rem 8.5rem;
   display: flex;
   flex-direction: column;
   color: $white;
