@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82" height="100.684" viewBox="0 0 82 100.684">
+  <g id="branchoffice_o_m" transform="translate(-81.514 -245.831)">
+    <path id="Path_318" data-name="Path 318" d="M116.7,338.621H83.014v-91.29h42.367v58.042" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3" fill-rule="evenodd"/>
+    <rect id="Rectangle_349" data-name="Rectangle 349" width="13.46" height="13.46" transform="translate(97.376 325.161)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+    <g id="Group_1496" data-name="Group 1496" transform="translate(92.038 255.605)">
+      <line id="Line_317" data-name="Line 317" y2="11.012" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_318" data-name="Line 318" y2="11.012" transform="translate(23.249)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_319" data-name="Line 319" y2="11.012" transform="translate(15.499)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_320" data-name="Line 320" y2="11.012" transform="translate(7.75)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_321" data-name="Line 321" y2="11.012" transform="translate(0 17.131)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_322" data-name="Line 322" y2="11.012" transform="translate(23.249 17.131)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_323" data-name="Line 323" y2="11.012" transform="translate(15.499 17.131)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_324" data-name="Line 324" y2="11.012" transform="translate(7.75 17.131)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_325" data-name="Line 325" y2="11.012" transform="translate(0 34.261)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_326" data-name="Line 326" y2="11.012" transform="translate(23.249 34.261)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_327" data-name="Line 327" y2="11.012" transform="translate(15.499 34.261)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_328" data-name="Line 328" y2="11.012" transform="translate(7.75 34.261)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_329" data-name="Line 329" y2="11.012" transform="translate(0 52.615)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_330" data-name="Line 330" y2="11.012" transform="translate(23.249 52.615)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_331" data-name="Line 331" y2="11.012" transform="translate(15.499 52.615)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_332" data-name="Line 332" y2="11.012" transform="translate(7.75 52.615)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+    <g id="exec" transform="translate(117.128 307.582)">
+      <g id="exec-2" data-name="exec" transform="translate(25.476 5.648)">
+        <path id="Path_319" data-name="Path 319" d="M147.328,338.809l2.98-1.6,2.129-1.191,3.876,1.383,3.815-1.413,2.151,1.207,4.459,2.385v7.288H151.119" transform="translate(-147.328 -319.741)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+        <ellipse id="Ellipse_71" data-name="Ellipse 71" cx="5.195" cy="6.572" rx="5.195" ry="6.572" transform="translate(3.791)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      </g>
+      <path id="Path_320" data-name="Path 320" d="M140.175,335.982l3.073,1.725,6.369,3.407v10.412H119.832V341.114l6.314-3.389,3.042-1.7L134.725,338Z" transform="translate(-119.832 -314.093)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <ellipse id="Ellipse_72" data-name="Ellipse 72" cx="7.421" cy="9.388" rx="7.421" ry="9.388" transform="translate(7.474)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

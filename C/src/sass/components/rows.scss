@@ -1,0 +1,22 @@
+.rows {
+  padding-top: 50px;
+}
+
+.row {
+  color: $white;
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+  border-top: 3px solid $primary-color;
+  opacity: 0;
+}
+
+.row-image {
+  width: 85px;
+  height: 96px;
+}
+
+.row-content {
+  padding-left: 40px;
+  font-size: 1.42rem;
+}

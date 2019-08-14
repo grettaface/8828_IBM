@@ -1,0 +1,15 @@
+.main-content,
+.main-scene {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.scene-container {
+  position: absolute;
+  left: 0;
+  height: 100vh;
+  display: flex;
+  width: 20000px;
+}

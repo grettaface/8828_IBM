@@ -1,0 +1,42 @@
+#slide-four-bar-1 {
+  left: 0;
+}
+
+#slide-four-bar-2 {
+  right: 0;
+}
+
+.slide-four-content {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  padding: 0 8.5rem 8rem;
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  h2 {
+    opacity: 0;
+  }
+
+  .network-grid {
+    align-content: flex-start;
+    flex: inherit;
+    margin: 0;
+  }
+}
+
+.card-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+.card-subtitle {
+  color: $primary-color;
+  font-family: 'Maison-Bold', Arial, sans-serif;
+  margin-bottom: 10px;
+}

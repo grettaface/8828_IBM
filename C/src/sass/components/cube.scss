@@ -1,0 +1,104 @@
+.network-grid {
+  display: flex;
+  flex: 1;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  padding-bottom: 50px;
+}
+
+.network-grid__item {
+  position: relative;
+  width: 21.4rem;
+  height: 21.4rem;
+  margin-right: 1.4rem;
+  margin-bottom: 1.4rem;
+  float: left;
+  opacity: 0;
+
+  .cube {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.3s cubic-bezier(0.64, 0.16, 0.46, 1.16);
+
+    &.turnt {
+      transform: rotateY(-90deg);
+
+      .right {
+        background: #222 !important;
+        border: 1px solid $primary-color;
+      }
+
+      .front {
+        background: #111 !important;
+      }
+    }
+
+    .right {
+      transform: rotateY(-270deg) translateX(10rem);
+      transform-origin: top right;
+      background: #111;
+      transition: all 0.3s ease-out;
+      font-family: 'Maison-Book', Arial, sans-serif;
+      font-size: 1.4rem;
+      border: 1px solid transparent;
+    }
+
+    .front {
+      transform: translateZ(10rem);
+      background: #222;
+      transition: all 0.3s ease-out;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .side {
+      padding: 2rem 1.4rem;
+      position: absolute;
+      color: $white;
+      font-size: 1.5rem;
+      line-height: 2.25rem;
+      width: 21.4rem;
+      height: 21.4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+      .large-icon {
+        width: 60%;
+        max-width: 120px;
+        margin: 0 auto 10px;
+      }
+    }
+
+    .card-title {
+      font-size: 2rem;
+      height: auto;
+      width: auto;
+      justify-self: flex-end;
+    }
+  }
+
+  ul {
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 18px;
+  }
+}
+
+.card-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+.card-subtitle {
+  color: $primary-color;
+  font-family: 'Maison-Bold', Arial, sans-serif;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,38 @@
+.slide-one-content {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  justify-content: space-around;
+
+  h2 {
+    opacity: 0;
+    margin-top: 0;
+  }
+
+  .network-grid {
+    margin: inherit;
+    flex: auto;
+  }
+
+  .network-grid__item,
+  .cube .side {
+    width: 27.5rem;
+    height: 27.5rem;
+    .large-icon {
+      width: 100%;
+      max-width: 200px;
+      max-height: 140px;
+    }
+  }
+
+  .cube .right {
+    transform: rotateY(-270deg) translateX(13.75rem);
+    justify-content: unset;
+  }
+
+  .card-subtitle {
+    padding-top: 40px;
+  }
+}

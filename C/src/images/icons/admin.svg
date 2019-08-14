@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150.578" height="150.578" viewBox="0 0 150.578 150.578">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="150.578" height="150.578" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Admin_o_m" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <g id="exec" transform="translate(39.835 40.066)">
+      <path id="Path_287" data-name="Path 287" d="M114.578,517.034v-9.924l15.033-8.07,7.241-4.049,13.181,4.7,12.974-4.805L170.323,499l15.165,8.11v9.926" transform="translate(-114.578 -443.301)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <ellipse id="Ellipse_50" data-name="Ellipse 50" cx="17.667" cy="22.35" rx="17.667" ry="22.35" transform="translate(17.792)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+    <g id="Group_1470" data-name="Group 1470" transform="translate(1.5 1.5)">
+      <path id="Path_288" data-name="Path 288" d="M95.662,512.836v22.418l16.288.028a57.763,57.763,0,0,0,8.994,21.356l-11.7,11.7L125.1,584.19,136.885,572.4a57.792,57.792,0,0,0,21.21,8.656h0v16.924h22.418V580.951a57.91,57.91,0,0,0,20.969-8.661L213.6,584.4l15.852-15.852-12.166-12.166A57.8,57.8,0,0,0,226,535.467l17.238.081V513.13l-17.119-.018a57.787,57.787,0,0,0-8.5-21.026l12.04-12.04-15.85-15.852L201.95,476.051a59.336,59.336,0,0,0-21.141-8.98l0-16.669H158.391l0,16.448a57.8,57.8,0,0,0-21.261,8.55l-.243.164-11.58-11.58-15.852,15.852,11.5,11.5h0a57.455,57.455,0,0,0-9,21.4Z" transform="translate(-95.662 -450.403)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

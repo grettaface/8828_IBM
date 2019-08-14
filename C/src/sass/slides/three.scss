@@ -1,0 +1,28 @@
+#slide-three-bar-1 {
+  left: 0;
+}
+
+#slide-three-bar-2 {
+  right: 0;
+}
+
+.slide-three-content {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  padding: 0 8.5rem 8rem;
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: $white;
+    font-size: 1.4rem;
+    max-width: 500px;
+    opacity: 0;
+  }
+}
