@@ -35,8 +35,12 @@
 }
 
 .network-partner__sidebar__content {
-  margin-top: -140px;
+  margin-top: -50px;
   max-width: 400px;
+
+  @media screen and (min-width: 1400px) {
+    margin-top: -140px;
+  }
 }
 
 .network-partner-pod {

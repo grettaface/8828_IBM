@@ -16,8 +16,12 @@
   flex-direction: column;
 
   h2 {
-    margin: 2.9rem auto 7rem;
+    margin: 8.9rem auto 7rem;
     max-width: 670px;
+
+    @media screen and (min-width: 1400px) {
+      margin: 2.9rem auto 7rem;
+    }
   }
 }
 
