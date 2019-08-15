@@ -21,9 +21,14 @@
 
   p {
     color: $white;
-    font-size: 1.4rem;
     max-width: 500px;
     opacity: 0;
+
+    font-size: 1.7rem;
+
+    @media screen and (min-width: 1400px) {
+      font-size: 1.42rem;
+    }
   }
 }
 

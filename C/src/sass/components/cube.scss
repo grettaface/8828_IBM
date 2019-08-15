@@ -5,17 +5,26 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: space-around;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
+
+  @media screen and (min-width: 1400px) {
+    padding-bottom: 50px;
+  }
 }
 
 .network-grid__item {
   position: relative;
-  width: 21.4rem;
-  height: 21.4rem;
-  margin-right: 1.4rem;
-  margin-bottom: 1.4rem;
+  width: 26rem;
+  height: 26rem;
+  margin: 1.4rem;
   float: left;
-  opacity: 0;
+  perspective: 2000px;
+  perspective-origin: 50% 100px;
+
+  @media screen and (min-width: 1400px) {
+    width: 20rem;
+    height: 20rem;
+  }
 
   .cube {
     position: relative;
@@ -36,41 +45,59 @@
     }
 
     .right {
-      transform: rotateY(-270deg) translateX(10rem);
+      transform: rotateY(-270deg) translateX(13rem);
       transform-origin: top right;
       background: #111;
       transition: all 0.3s ease-out;
       font-family: 'Maison-Book', Arial, sans-serif;
-      font-size: 1.4rem;
+      font-size: 1.666rem;
       border: 1px solid transparent;
+
+      @media screen and (min-width: 1400px) {
+        transform: rotateY(-270deg) translateX(10rem);
+      }
     }
 
     .front {
-      transform: translateZ(10rem);
+      transform: translateZ(13rem);
       background: #222;
       transition: all 0.3s ease-out;
       text-align: center;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+
+      @media screen and (min-width: 1400px) {
+        transform: translateZ(10rem);
+      }
     }
 
     .side {
-      padding: 2rem 1.4rem;
+      font-size: 1.4rem;
+      padding: 1.4rem;
       position: absolute;
       color: $white;
-      font-size: 1.5rem;
-      line-height: 2.25rem;
-      width: 21.4rem;
-      height: 21.4rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
+      width: 26rem;
+      height: 26rem;
+
+      @media screen and (min-width: 1400px) {
+        width: 20rem;
+        height: 20rem;
+      }
 
       .large-icon {
         width: 60%;
+        margin: auto;
         max-width: 120px;
-        margin: 0 auto 10px;
+        max-height: 120px;
+      }
+
+      ul {
+        padding-left: 2rem;
+      }
+
+      li {
+        font-size: 1.4rem;
       }
     }
 
@@ -80,12 +107,6 @@
       width: auto;
       justify-self: flex-end;
     }
-  }
-
-  ul {
-    margin-top: 0;
-    padding-top: 0;
-    padding-left: 18px;
   }
 }
 

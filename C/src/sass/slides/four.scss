@@ -25,6 +25,14 @@
     flex: inherit;
     margin: 0;
   }
+
+  .cube .side.right {
+    padding-top: 4rem;
+
+    @media screen and (min-width: 1400px) {
+      padding-top: 1.4rem;
+    }
+  }
 }
 
 .card-close {

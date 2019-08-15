@@ -18,21 +18,30 @@
 
   .network-grid__item,
   .cube .side {
-    width: 27.5rem;
-    height: 27.5rem;
+    width: 26rem;
+    height: 26rem;
     .large-icon {
       width: 100%;
-      max-width: 200px;
-      max-height: 140px;
+      max-width: 14.28rem;
+      max-height: 10rem;
     }
   }
 
+  .network-grid__item {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .cube .front {
+    transform: translateZ(13rem);
+  }
+
   .cube .right {
-    transform: rotateY(-270deg) translateX(13.75rem);
+    transform: rotateY(-270deg) translateX(13rem);
     justify-content: unset;
   }
 
   .card-subtitle {
-    padding-top: 40px;
+    padding-top: 2.85rem;
   }
 }
