@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#48D597;}
-	.st1{fill:none;stroke:#48D597;stroke-width:3;stroke-miterlimit:10;}
-</style>
-<g id="laptop_o_m" transform="translate(-404.461 -110.493)">
-	<path id="Path_457" class="st0" d="M464.8,183.4v2.1h-20.7v-2.1h-33.5v4.7c0,0.5,0.4,0.8,0.8,0.8l0,0h86.1c0.4,0,0.8-0.4,0.8-0.8
-		v-4.7L464.8,183.4z"/>
-	<rect id="Rectangle_383" x="417.5" y="133.6" class="st1" width="73.5" height="45.1"/>
-</g>
-</svg>
+<svg enable-background="new 0 0 100 100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-404.461 -110.493)"><path d="m464.8 183.4v2.1h-20.7v-2.1h-33.5v4.7c0 .5.4.8.8.8h86.1c.4 0 .8-.4.8-.8v-4.7z" fill="#48d597"/><path d="m417.5 133.6h73.5v45.1h-73.5z" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/></g></svg>

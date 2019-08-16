@@ -20,6 +20,11 @@
   font-size: 1.4rem;
   color: $white;
   opacity: 0;
+  max-width: 310px;
+
+  @media screen and (min-width: 1400px) {
+    max-width: 1000px;
+  }
 }
 
 .network-partner__sidebar {
