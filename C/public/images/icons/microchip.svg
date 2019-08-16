@@ -1,39 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="142.68" height="133.817" viewBox="0 0 142.68 133.817">
-  <defs>
-    <clipPath id="clip-path">
-      <rect width="142.679" height="133.817" fill="none"/>
-    </clipPath>
-  </defs>
-  <g id="microchip_o_m" transform="translate(0 0)" clip-path="url(#clip-path)">
-    <rect id="Rectangle_340" data-name="Rectangle 340" width="96.925" height="88.175" transform="translate(22.61 22.436)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
-    <rect id="Rectangle_341" data-name="Rectangle 341" width="59.225" height="53.878" transform="translate(41.46 39.585)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
-    <g id="Group_1477" data-name="Group 1477" transform="translate(38.414)">
-      <line id="Line_292" data-name="Line 292" y2="22.885" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.866"/>
-      <line id="Line_293" data-name="Line 293" y2="22.885" transform="translate(16.154)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.866"/>
-      <line id="Line_294" data-name="Line 294" y2="22.885" transform="translate(32.308)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.866"/>
-      <line id="Line_295" data-name="Line 295" y2="22.885" transform="translate(48.463)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.866"/>
-      <line id="Line_296" data-name="Line 296" y2="22.885" transform="translate(64.617)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.866"/>
-    </g>
-    <g id="Group_1478" data-name="Group 1478" transform="translate(38.414 110.932)">
-      <line id="Line_297" data-name="Line 297" y2="22.885" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.866"/>
-      <line id="Line_298" data-name="Line 298" y2="22.885" transform="translate(16.154)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.866"/>
-      <line id="Line_299" data-name="Line 299" y2="22.885" transform="translate(32.308)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.866"/>
-      <line id="Line_300" data-name="Line 300" y2="22.885" transform="translate(48.463)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.866"/>
-      <line id="Line_301" data-name="Line 301" y2="22.885" transform="translate(64.617)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.866"/>
-    </g>
-    <g id="Group_1479" data-name="Group 1479" transform="translate(119.794 34.6)">
-      <line id="Line_302" data-name="Line 302" x1="22.885" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.866"/>
-      <line id="Line_303" data-name="Line 303" x1="22.885" transform="translate(0 16.154)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.866"/>
-      <line id="Line_304" data-name="Line 304" x1="22.885" transform="translate(0 32.308)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.866"/>
-      <line id="Line_305" data-name="Line 305" x1="22.885" transform="translate(0 48.463)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.866"/>
-      <line id="Line_306" data-name="Line 306" x1="22.885" transform="translate(0 64.617)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.866"/>
-    </g>
-    <g id="Group_1480" data-name="Group 1480" transform="translate(0 34.6)">
-      <line id="Line_307" data-name="Line 307" x1="22.885" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.866"/>
-      <line id="Line_308" data-name="Line 308" x1="22.885" transform="translate(0 16.154)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.866"/>
-      <line id="Line_309" data-name="Line 309" x1="22.885" transform="translate(0 32.308)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.866"/>
-      <line id="Line_310" data-name="Line 310" x1="22.885" transform="translate(0 48.463)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.866"/>
-      <line id="Line_311" data-name="Line 311" x1="22.885" transform="translate(0 64.617)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.866"/>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 142.7 133.8" style="enable-background:new 0 0 142.7 133.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:none;stroke:#48D597;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="142.7" height="133.8"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g id="microchip_o_m" transform="translate(0 0)" class="st0">
+		<rect id="Rectangle_340" x="22.6" y="22.4" class="st1" width="96.9" height="88.2"/>
+		<rect id="Rectangle_341" x="41.5" y="39.6" class="st1" width="59.2" height="53.9"/>
+		<g id="Group_1477" transform="translate(38.414)">
+			<line id="Line_292" class="st1" x1="0" y1="0" x2="0" y2="22.9"/>
+			<line id="Line_293" class="st1" x1="16.2" y1="0" x2="16.2" y2="22.9"/>
+			<line id="Line_294" class="st1" x1="32.3" y1="0" x2="32.3" y2="22.9"/>
+			<line id="Line_295" class="st1" x1="48.5" y1="0" x2="48.5" y2="22.9"/>
+			<line id="Line_296" class="st1" x1="64.6" y1="0" x2="64.6" y2="22.9"/>
+		</g>
+		<g id="Group_1478" transform="translate(38.414 110.932)">
+			<line id="Line_297" class="st1" x1="0" y1="0" x2="0" y2="22.9"/>
+			<line id="Line_298" class="st1" x1="16.2" y1="0" x2="16.2" y2="22.9"/>
+			<line id="Line_299" class="st1" x1="32.3" y1="0" x2="32.3" y2="22.9"/>
+			<line id="Line_300" class="st1" x1="48.5" y1="0" x2="48.5" y2="22.9"/>
+			<line id="Line_301" class="st1" x1="64.6" y1="0" x2="64.6" y2="22.9"/>
+		</g>
+		<g id="Group_1479" transform="translate(119.794 34.6)">
+			<line id="Line_302" class="st1" x1="22.9" y1="0" x2="0" y2="0"/>
+			<line id="Line_303" class="st1" x1="22.9" y1="16.2" x2="0" y2="16.2"/>
+			<line id="Line_304" class="st1" x1="22.9" y1="32.3" x2="0" y2="32.3"/>
+			<line id="Line_305" class="st1" x1="22.9" y1="48.5" x2="0" y2="48.5"/>
+			<line id="Line_306" class="st1" x1="22.9" y1="64.6" x2="0" y2="64.6"/>
+		</g>
+		<g id="Group_1480" transform="translate(0 34.6)">
+			<line id="Line_307" class="st1" x1="22.9" y1="0" x2="0" y2="0"/>
+			<line id="Line_308" class="st1" x1="22.9" y1="16.2" x2="0" y2="16.2"/>
+			<line id="Line_309" class="st1" x1="22.9" y1="32.3" x2="0" y2="32.3"/>
+			<line id="Line_310" class="st1" x1="22.9" y1="48.5" x2="0" y2="48.5"/>
+			<line id="Line_311" class="st1" x1="22.9" y1="64.6" x2="0" y2="64.6"/>
+		</g>
+	</g>
+</g>
 </svg>

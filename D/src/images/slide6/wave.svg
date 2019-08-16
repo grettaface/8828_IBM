@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250.422" height="250.422" viewBox="0 0 250.422 250.422">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="250.422" height="250.422" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Component_20_1" data-name="Component 20 – 1" clip-path="url(#clip-path)">
+    <g id="Group_1448" data-name="Group 1448">
+      <g id="Ellipse_34" data-name="Ellipse 34" transform="translate(0 0)" fill="none" stroke="#fff" stroke-width="3">
+        <circle cx="125.211" cy="125.211" r="125.211" stroke="none"/>
+        <circle cx="125.211" cy="125.211" r="123.711" fill="none"/>
+      </g>
+    </g>
+    <path id="Lifeline_m" d="M140.884,328.235l24.568,30.3,22.591-67.682L209.4,351.912l20.359-40.436,16.835,64.1,20.915-100.9,18.2,49.956,19.255,4.307" transform="translate(-97.53 -199.418)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+</svg>

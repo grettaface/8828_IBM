@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250.422" height="250.422" viewBox="0 0 250.422 250.422">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="250.422" height="250.422" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Component_21_1" data-name="Component 21 – 1" clip-path="url(#clip-path)">
+    <g id="Group_1446" data-name="Group 1446">
+      <g id="Ellipse_34" data-name="Ellipse 34" transform="translate(0 0)" fill="none" stroke="#fff" stroke-width="3">
+        <circle cx="125.211" cy="125.211" r="125.211" stroke="none"/>
+        <circle cx="125.211" cy="125.211" r="123.711" fill="none"/>
+      </g>
+    </g>
+    <g id="MPLS_o_m" transform="translate(-27.042 10.711)">
+      <circle id="Ellipse_109" data-name="Ellipse 109" cx="12.07" cy="12.07" r="12.07" transform="translate(89.542 73.343)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <circle id="Ellipse_110" data-name="Ellipse 110" cx="12.07" cy="12.07" r="12.07" transform="translate(141.324 37.835)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <circle id="Ellipse_111" data-name="Ellipse 111" cx="12.07" cy="12.07" r="12.07" transform="translate(189.922 89.89)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <circle id="Ellipse_112" data-name="Ellipse 112" cx="12.07" cy="12.07" r="12.07" transform="translate(176.867 137.7)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <circle id="Ellipse_113" data-name="Ellipse 113" cx="12.07" cy="12.07" r="12.07" transform="translate(89.542 152.086)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <g id="Group_1544" data-name="Group 1544" transform="translate(136.839 97.671)">
+        <circle id="Ellipse_114" data-name="Ellipse 114" cx="20.014" cy="20.014" r="20.014" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      </g>
+      <line id="Line_404" data-name="Line 404" x2="3.458" y2="35.696" transform="translate(153.394 61.975)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_405" data-name="Line 405" x2="27.095" y2="17.819" transform="translate(109.743 89.89)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_406" data-name="Line 406" x1="31.581" y2="24.951" transform="translate(109.743 130.303)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_407" data-name="Line 407" y1="3.182" x2="12.07" transform="translate(176.867 104.527)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_408" data-name="Line 408" x1="10.724" y1="7.908" transform="translate(168.993 134.081)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

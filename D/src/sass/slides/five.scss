@@ -1,0 +1,187 @@
+#slide-five-bar-1 {
+  left: 0;
+}
+
+#slide-five-bar-2 {
+  right: 0;
+}
+
+.slide-five-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+
+  h2 {
+    margin-bottom: 0.7rem;
+  }
+
+  // p {
+  //   color: $white;
+  //   max-width: 500px;
+  //   opacity: 0;
+
+  //   font-size: 1.7rem;
+
+  //   @media screen and (min-width: 1400px) {
+  //     font-size: 1.42rem;
+  //   }
+  // }
+
+  .network-partner__subheader {
+    max-width: 40rem;
+    font-size: 1.4rem;
+  }
+}
+
+.slide-five__container {
+  position: relative;
+  width: 100%;
+  height: 31rem;
+  margin-top: 130px;
+  display: flex;
+}
+
+.slide-five__column {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+
+  .cloud-gray,
+  .cloud-green {
+    width: 100%;
+    height: 100%;
+  }
+
+  .cloud {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 36rem;
+    transform: translateX(-50%);
+  }
+
+  .logo {
+    position: absolute;
+    width: 9rem;
+    z-index: 1;
+  }
+
+  #aws {
+    top: 13%;
+    left: 45%;
+    width: 7.6rem;
+  }
+
+  #azure {
+    top: 54%;
+    left: 60%;
+    width: 8.8rem;
+  }
+
+  #google {
+    top: 34%;
+    left: 58%;
+    width: 10.7rem;
+  }
+
+  #ibm {
+    top: 36%;
+    left: 25%;
+    width: 7.6rem;
+  }
+
+  #oracle {
+    left: 23%;
+    top: 55%;
+    width: 10rem;
+  }
+
+  .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 3px solid $white;
+    border-radius: 100%;
+    width: 23rem;
+    height: 23rem;
+    transform-origin: 50% 50%;
+    background: $black;
+    z-index: 1;
+  }
+}
+
+.green-line {
+  position: absolute;
+  top: 50%;
+  left: 31rem;
+  // transform: translateX(-50%);
+  height: 3px;
+  width: 0;
+  background: $primary-color;
+}
+
+.slide-five-icon {
+  position: absolute;
+  z-index: 1;
+  width: 7.5rem;
+  transform-origin: 50% 50%;
+  z-index: 2;
+}
+
+#building {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#home {
+  top: 33.333%;
+  right: 18%;
+  transform: translateY(-50%);
+}
+#database {
+  top: 66.666%;
+  right: 18%;
+  transform: translateY(-50%);
+}
+#direction {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#city {
+  top: 66.666%;
+  left: 18%;
+  transform: translateY(-50%);
+}
+#hq {
+  top: 33.333%;
+  left: 18%;
+  transform: translateY(-50%);
+}
+
+.cloud-green__content {
+  position: relative;
+  padding-top: 8.5rem;
+  padding-left: -30px;
+  z-index: 2;
+  text-align: center;
+
+  p {
+    font-size: 2rem;
+    opacity: 1;
+    color: $black;
+  }
+}
+
+p.slide-five-subtitle {
+  color: $primary-color;
+}
+
+.cl_logo {
+  width: 18.5rem;
+}

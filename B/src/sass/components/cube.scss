@@ -16,8 +16,7 @@
   position: relative;
   width: 26rem;
   height: 26rem;
-  margin-right: 1.4rem;
-  margin-bottom: 1.4rem;
+  margin: 1.4rem;
   float: left;
   perspective: 2000px;
   perspective-origin: 50% 100px;
@@ -74,6 +73,7 @@
     }
 
     .side {
+      font-size: 1.4rem;
       padding: 1.4rem;
       position: absolute;
       color: $white;
@@ -88,6 +88,16 @@
       .large-icon {
         width: 60%;
         margin: auto;
+        max-width: 120px;
+        max-height: 120px;
+      }
+
+      ul {
+        padding-left: 2rem;
+      }
+
+      li {
+        font-size: 1.4rem;
       }
     }
 

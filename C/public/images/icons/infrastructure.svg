@@ -5,25 +5,25 @@
     </clipPath>
   </defs>
   <g id="CustInfrastructure_o_m" clip-path="url(#clip-path)">
-    <rect id="Rectangle_342" data-name="Rectangle 342" width="29.092" height="115.69" transform="translate(88.098 1.5)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+    <rect vector-effect="non-scaling-stroke" id="Rectangle_342" data-name="Rectangle 342" width="29.092" height="115.69" transform="translate(88.098 1.5)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
     <g id="Group_1488" data-name="Group 1488" transform="translate(32.921 79.303)">
-      <line id="Line_312" data-name="Line 312" y1="0.228" x2="66.064" transform="translate(-1 10.058)" fill="#48d597" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
-      <path id="Path_303" data-name="Path 303" d="M744.117,318.3l11.895-7.957L743.947,303.3Z" transform="translate(-681.44 -300.302)" fill="#48d597"/>
+      <line vector-effect="non-scaling-stroke" id="Line_312" data-name="Line 312" y1="0.228" x2="66.064" transform="translate(-1 10.058)" fill="#48d597" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <path vector-effect="non-scaling-stroke" id="Path_303" data-name="Path 303" d="M744.117,318.3l11.895-7.957L743.947,303.3Z" transform="translate(-681.44 -300.302)" fill="#48d597"/>
     </g>
-    <rect id="Rectangle_343" data-name="Rectangle 343" width="29.092" height="115.69" transform="translate(1.5 1.5)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
-    <circle id="Ellipse_59" data-name="Ellipse 59" cx="3.588" cy="3.588" r="3.588" transform="translate(12.74 11.274)" fill="#48d597"/>
-    <circle id="Ellipse_60" data-name="Ellipse 60" cx="3.588" cy="3.588" r="3.588" transform="translate(12.74 24.805)" fill="#48d597"/>
-    <circle id="Ellipse_61" data-name="Ellipse 61" cx="3.588" cy="3.588" r="3.588" transform="translate(12.74 38.336)" fill="#48d597"/>
-    <circle id="Ellipse_62" data-name="Ellipse 62" cx="3.588" cy="3.588" r="3.588" transform="translate(99.338 11.274)" fill="#48d597"/>
-    <circle id="Ellipse_63" data-name="Ellipse 63" cx="3.588" cy="3.588" r="3.588" transform="translate(99.338 24.805)" fill="#48d597"/>
-    <circle id="Ellipse_64" data-name="Ellipse 64" cx="3.588" cy="3.588" r="3.588" transform="translate(99.338 38.336)" fill="#48d597"/>
+    <rect vector-effect="non-scaling-stroke" id="Rectangle_343" data-name="Rectangle 343" width="29.092" height="115.69" transform="translate(1.5 1.5)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+    <circle vector-effect="non-scaling-stroke" id="Ellipse_59" data-name="Ellipse 59" cx="3.588" cy="3.588" r="3.588" transform="translate(12.74 11.274)" fill="#48d597"/>
+    <circle vector-effect="non-scaling-stroke" id="Ellipse_60" data-name="Ellipse 60" cx="3.588" cy="3.588" r="3.588" transform="translate(12.74 24.805)" fill="#48d597"/>
+    <circle vector-effect="non-scaling-stroke" id="Ellipse_61" data-name="Ellipse 61" cx="3.588" cy="3.588" r="3.588" transform="translate(12.74 38.336)" fill="#48d597"/>
+    <circle vector-effect="non-scaling-stroke" id="Ellipse_62" data-name="Ellipse 62" cx="3.588" cy="3.588" r="3.588" transform="translate(99.338 11.274)" fill="#48d597"/>
+    <circle vector-effect="non-scaling-stroke" id="Ellipse_63" data-name="Ellipse 63" cx="3.588" cy="3.588" r="3.588" transform="translate(99.338 24.805)" fill="#48d597"/>
+    <circle vector-effect="non-scaling-stroke" id="Ellipse_64" data-name="Ellipse 64" cx="3.588" cy="3.588" r="3.588" transform="translate(99.338 38.336)" fill="#48d597"/>
     <g id="Group_1489" data-name="Group 1489" transform="translate(6.874 56.977)">
-      <line id="Line_313" data-name="Line 313" x1="66.064" y2="0.228" transform="translate(13.828 10.084)" fill="#48d597" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
-      <path id="Path_304" data-name="Path 304" d="M713.3,292.577l-11.9,7.957,12.065,7.043Z" transform="translate(-699.407 -289.577)" fill="#48d597"/>
+      <line vector-effect="non-scaling-stroke" id="Line_313" data-name="Line 313" x1="66.064" y2="0.228" transform="translate(13.828 10.084)" fill="#48d597" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <path vector-effect="non-scaling-stroke" id="Path_304" data-name="Path 304" d="M713.3,292.577l-11.9,7.957,12.065,7.043Z" transform="translate(-699.407 -289.577)" fill="#48d597"/>
     </g>
-    <rect id="Rectangle_344" data-name="Rectangle 344" width="29.092" height="115.69" transform="translate(44.799 1.5)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
-    <circle id="Ellipse_65" data-name="Ellipse 65" cx="3.588" cy="3.588" r="3.588" transform="translate(56.039 11.274)" fill="#48d597"/>
-    <circle id="Ellipse_66" data-name="Ellipse 66" cx="3.588" cy="3.588" r="3.588" transform="translate(56.039 24.805)" fill="#48d597"/>
-    <circle id="Ellipse_67" data-name="Ellipse 67" cx="3.588" cy="3.588" r="3.588" transform="translate(56.039 38.336)" fill="#48d597"/>
+    <rect vector-effect="non-scaling-stroke" id="Rectangle_344" data-name="Rectangle 344" width="29.092" height="115.69" transform="translate(44.799 1.5)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+    <circle vector-effect="non-scaling-stroke" id="Ellipse_65" data-name="Ellipse 65" cx="3.588" cy="3.588" r="3.588" transform="translate(56.039 11.274)" fill="#48d597"/>
+    <circle vector-effect="non-scaling-stroke" id="Ellipse_66" data-name="Ellipse 66" cx="3.588" cy="3.588" r="3.588" transform="translate(56.039 24.805)" fill="#48d597"/>
+    <circle vector-effect="non-scaling-stroke" id="Ellipse_67" data-name="Ellipse 67" cx="3.588" cy="3.588" r="3.588" transform="translate(56.039 38.336)" fill="#48d597"/>
   </g>
 </svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102.34" height="102.34" viewBox="0 0 102.34 102.34">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="102.34" height="102.34" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Component_26_1" data-name="Component 26 – 1" clip-path="url(#clip-path)">
+    <circle id="Ellipse_81" data-name="Ellipse 81" cx="49.67" cy="49.67" r="49.67" transform="translate(1.5 1.5)" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+    <g id="pop_o_m" transform="translate(23.214 21.011)">
+      <g id="Group_1530" data-name="Group 1530">
+        <g id="Group_1529" data-name="Group 1529">
+          <g id="Group_1528" data-name="Group 1528">
+            <g id="Building_o_g">
+              <path id="Path_416" data-name="Path 416" d="M248.846,602.91H212.2V545.148h41.725v31.72" transform="translate(-212.202 -545.148)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+              <path id="Path_417" data-name="Path 417" d="M237.718,598.011V586.179h-10.9v11.832" transform="translate(-210.795 -541.198)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <line id="Line_360" data-name="Line 360" x2="24.055" transform="translate(8.867 25.043)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_361" data-name="Line 361" x2="24.055" transform="translate(8.867 32.608)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_362" data-name="Line 362" x2="24.055" transform="translate(8.867 17.478)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Line_363" data-name="Line 363" x2="24.055" transform="translate(8.867 9.913)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <g id="Stroke" transform="translate(36.095 33.354)">
+        <circle id="Ellipse_82" data-name="Ellipse 82" cx="13.035" cy="13.035" r="13.035" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+        <line id="Line_364" data-name="Line 364" x1="0.022" y2="17.102" transform="translate(13.062 4.724)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+        <line id="Line_365" data-name="Line 365" x1="16.697" transform="translate(4.82 13.022)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+        <path id="Path_418" data-name="Path 418" d="M262.461,584.809l2.881,2.881-2.881,2.881" transform="translate(-243.459 -574.684)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.6"/>
+        <path id="Path_419" data-name="Path 419" d="M251.877,590.57,249,587.69l2.881-2.881" transform="translate(-244.755 -574.684)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.6"/>
+        <path id="Path_420" data-name="Path 420" d="M260.176,592.855l-2.881,2.881-2.881-2.881" transform="translate(-244.234 -573.91)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.6"/>
+        <path id="Path_421" data-name="Path 421" d="M254.414,582.271l2.881-2.881,2.881,2.881" transform="translate(-244.234 -575.206)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="2.6"/>
+      </g>
+    </g>
+  </g>
+</svg>

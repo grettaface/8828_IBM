@@ -1,24 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125.243" height="119.587" viewBox="0 0 125.243 119.587">
-  <defs>
-    <clipPath id="clip-path">
-      <rect width="125.244" height="119.587" fill="none"/>
-    </clipPath>
-  </defs>
-  <g id="securityAssess_o_m" transform="translate(0 0)" clip-path="url(#clip-path)">
-    <g id="Stroke" transform="translate(1.5 3.5)">
-      <path id="Path_305" data-name="Path 305" d="M455.875,289.984v-9.837H387.928v63.584h67.947v-8.877" transform="translate(-387.928 -240.009)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
-      <path id="Path_306" data-name="Path 306" d="M393.236,300.631v-25.6s2.715-17.518,24.624-17.518,24.624,17.518,24.624,17.518v25.6" transform="translate(-383.825 -259.509)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
-      <g id="Group_1490" data-name="Group 1490" transform="translate(25.912 56.792)">
-        <circle id="Ellipse_68" data-name="Ellipse 68" cx="8.062" cy="8.062" r="8.062" fill="#48d597"/>
-        <rect id="Rectangle_345" data-name="Rectangle 345" width="5.506" height="14.281" transform="translate(5.309 14.463)" fill="#48d597"/>
-      </g>
-    </g>
-    <g id="Group_1492" data-name="Group 1492" transform="translate(52.11 53.476)">
-      <g id="Group_1491" data-name="Group 1491">
-        <circle id="Ellipse_69" data-name="Ellipse 69" cx="22.434" cy="22.434" r="22.434" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
-        <line id="Line_314" data-name="Line 314" x2="32.82" y2="27.83" transform="translate(39.343 37.136)" fill="#48d597" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
-      </g>
-      <path id="Path_307" data-name="Path 307" d="M422.339,305.493l9.308,8.644L444.5,291.087" transform="translate(-411.937 -281.528)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 125.2 119.6" style="enable-background:new 0 0 125.2 119.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:none;stroke:#48D597;stroke-width:3;stroke-miterlimit:10;}
+	.st2{fill:#48D597;}
+</style>
+<rect class="st0" width="125.2" height="119.6"/>
+<path id="Path_305" class="st1" d="M69.4,53.5v-9.8H1.5v63.6h67.9v-8.9"/>
+<path id="Path_306" class="st1" d="M10.9,44.6V19c0,0,2.7-17.5,24.6-17.5S60.2,19,60.2,19v25.6"/>
+<g id="Group_1490" transform="translate(25.912 56.792)">
+	<circle id="Ellipse_68" class="st2" cx="9.6" cy="11.6" r="8.1"/>
+	<rect id="Rectangle_345" x="6.8" y="18" class="st2" width="5.5" height="14.3"/>
+</g>
+<g id="Group_1492" transform="translate(52.11 53.476)">
+	<g id="Group_1491">
+		<circle id="Ellipse_69" class="st1" cx="22.4" cy="22.4" r="22.4"/>
+		<line id="Line_314" class="st1" x1="39.3" y1="37.1" x2="72.2" y2="65"/>
+	</g>
+	<path id="Path_307" class="st1" d="M10.4,24l9.3,8.6L32.6,9.6"/>
+</g>
 </svg>

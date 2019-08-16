@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250.422" height="250.422" viewBox="0 0 250.422 250.422">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="250.422" height="250.422" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Component_19_1" data-name="Component 19 – 1" clip-path="url(#clip-path)">
+    <g id="Group_1449" data-name="Group 1449">
+      <g id="Ellipse_34" data-name="Ellipse 34" transform="translate(0 0)" fill="none" stroke="#fff" stroke-width="3">
+        <circle cx="125.211" cy="125.211" r="125.211" stroke="none"/>
+        <circle cx="125.211" cy="125.211" r="123.711" fill="none"/>
+      </g>
+    </g>
+    <g id="checklist_o_m" transform="translate(-636.408 -206.521)">
+      <path id="Path_453" data-name="Path 453" d="M713.407,348.991v-75.47h58.882L807,307.445v82.283H713.407" transform="translate(8.038 0)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <g id="Group_1545" data-name="Group 1545" transform="translate(758.102 324.605)">
+        <line id="Line_409" data-name="Line 409" x2="42.505" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+        <line id="Line_410" data-name="Line 410" x2="42.505" transform="translate(0 21.058)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+        <line id="Line_411" data-name="Line 411" x2="42.505" transform="translate(0 42.115)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      </g>
+      <rect id="Rectangle_382" data-name="Rectangle 382" width="19.888" height="19.888" transform="translate(731.882 284.05)" fill="#48d597"/>
+      <path id="Path_454" data-name="Path 454" d="M769.966,305.331H738.574V273.937" transform="translate(41.755 0.557)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Path_455" data-name="Path 455" d="M707.407,330.645,717.444,344.1l22.98-43.651" transform="translate(0 36.076)" fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
