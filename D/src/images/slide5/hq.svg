@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102.34" height="102.34" viewBox="0 0 102.34 102.34">
-  <defs>
-    <clipPath id="clip-path">
-      <rect width="102.34" height="102.34" fill="none"/>
-    </clipPath>
-  </defs>
-  <g id="Component_28_1" data-name="Component 28 – 1" clip-path="url(#clip-path)">
-    <circle vector-effect="non-scaling-stroke" id="Ellipse_84" data-name="Ellipse 84" cx="49.67" cy="49.67" r="49.67" transform="translate(1.5 1.5)" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
-    <text id="HQ" transform="translate(50.282 68.48)" fill="#48d597" font-size="47" font-family="MaisonNeue-Book, Maison Neue"><tspan x="-32.148" y="0">HQ</tspan></text>
-  </g>
-</svg>
+<svg height="102.34" viewBox="0 0 102.34 102.34" width="102.34" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="a"><path d="m0 0h102.34v102.34h-102.34z"/></clipPath><g clip-path="url(#a)"><circle cx="49.67" cy="49.67" r="49.67" stroke="#fff" stroke-miterlimit="10" stroke-width="3" transform="translate(1.5 1.5)"/><text fill="#48d597" font-family="MaisonNeue-Book, Maison Neue" font-size="47" transform="translate(50.282 68.48)"><tspan x="-32.148" y="0">HQ</tspan></text></g></svg>
