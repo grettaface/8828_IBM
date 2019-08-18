@@ -1,15 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 99.93 68.95">
-  <defs>
-    <style>.cls-1{fill:none;stroke:#48d597;stroke-width:3px;}</style>
-  </defs>
-  <title>eye</title>
-  <g id="Layer_2" data-name="Layer 2">
-    <g id="Layer_1-2" data-name="Layer 1">
-      <g id="Group_1476" data-name="Group 1476">
-        <g id="visibility">
-          <path id="Path_302" vector-effect="non-scaling-stroke" data-name="Path 302" class="cls-1" d="M50,1.5a51.79,51.79,0,0,0-48.35,33,51.94,51.94,0,0,0,96.71,0A51.8,51.8,0,0,0,50,1.5Zm0,55a22,22,0,1,1,22-22h0a21.77,21.77,0,0,1-21.55,22Zm0-35.17A13.19,13.19,0,1,0,63.15,34.47,12.94,12.94,0,0,0,50.44,21.28Z"/>
-        </g>
-      </g>
-    </g>
-  </g>
-</svg>
+<svg viewBox="0 0 99.93 68.95" xmlns="http://www.w3.org/2000/svg"><path d="m50 1.5a51.79 51.79 0 0 0 -48.35 33 51.94 51.94 0 0 0 96.71 0 51.8 51.8 0 0 0 -48.36-33zm0 55a22 22 0 1 1 22-22 21.77 21.77 0 0 1 -21.55 22zm0-35.17a13.19 13.19 0 1 0 13.15 13.14 12.94 12.94 0 0 0 -12.71-13.19z" fill="none" stroke="#48d597" stroke-width="3"/></svg>

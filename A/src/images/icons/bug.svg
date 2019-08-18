@@ -1,1 +1,22 @@
-<svg viewBox="0 0 87.01 100.49" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#48d597" stroke-miterlimit="10" stroke-width="3"><path d="m60.49 40.46h-34l-7.18 8.4v23.7c0 12.78 11 23.18 24.35 23.18s24.34-10.46 24.34-23.18v-23.7z"/><path d="m56.8 33.82v-4.44c0-6.44-6.52-11.06-13.29-11.06s-13.28 4.68-13.28 11.06v4.44"/><path d="m34.65 20.53-8.85-19.92"/><path d="m52.36 20.53 8.86-19.92"/><path d="m19.15 49.32-8.85-6.65-4.42-15.5"/><path d="m19.15 80.3-8.85 6.7-2.21 13.24"/><path d="m19.15 60.38-13.27 4.44-4.44 15.48"/><path d="m67.86 49.32 8.86-6.65 4.43-15.5"/><path d="m67.86 80.3 8.86 6.7 2.22 13.29"/><path d="m67.86 60.38 13.29 4.44 4.42 15.48"/><path d="m43.51 49.32v46.48"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#48D597;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M67,40.2H33l-7.2,8.4c0,0,0,5.5,0,6v17.7c0,12.8,11,23.2,24.4,23.2S74.5,85,74.5,72.3V54.6c0-0.5,0-6,0-6
+		L67,40.2z"/>
+	<path class="st0" d="M63.3,33.6v-4.4c0-6.4-6.5-11.1-13.3-11.1s-13.3,4.6-13.3,11.1v4.4"/>
+	<path class="st0" d="M41.1,20.3L32.3,0.4"/>
+	<path class="st0" d="M58.9,20.3l8.9-19.9"/>
+	<path class="st0" d="M25.6,49.1l-8.9-6.6l-4.4-15.5"/>
+	<path class="st0" d="M25.6,80.1l-8.9,6.6L14.6,100"/>
+	<path class="st0" d="M25.6,60.1l-13.3,4.4L7.9,80.1"/>
+	<path class="st0" d="M74.4,49.1l8.9-6.6l4.4-15.5"/>
+	<path class="st0" d="M74.4,80.1l8.9,6.6l2.2,13.3"/>
+	<path class="st0" d="M74.4,60.1l13.3,4.4l4.4,15.5"/>
+	<path class="st0" d="M50,49.1v46.5"/>
+</g>
+</svg>
