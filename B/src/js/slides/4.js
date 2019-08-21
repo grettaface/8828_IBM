@@ -132,7 +132,6 @@ export default class slide4 {
       }
     );
 
-    console.log($('.slide-four .slide-pod'))
 
     TweenMax.fromTo(
       '.slide-four .slide-pod',

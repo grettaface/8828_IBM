@@ -12,13 +12,17 @@
 }
 
 .row-image {
-  width: 6rem;
-  height: 6.85rem;
+  max-width: 6rem;
+  // max-height: 6rem;
+  display: inline-block;
+  flex: 1;
 }
 
+
 .row-content {
-  padding-left: 40px;
+  padding-left: 2.84rem;
   font-size: 1.7rem;
+  flex: 12;
 
   @media screen and (min-width: 1400px) {
     font-size: 1.42rem;

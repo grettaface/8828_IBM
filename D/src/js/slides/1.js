@@ -4,7 +4,6 @@ import { Power4 } from 'gsap';
 
 export default class slide1 {
   mount() {
-    console.log('1');
     TweenMax.fromTo(
       $('.slide-one h1'),
       1,

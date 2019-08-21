@@ -65,6 +65,21 @@ export default class slide5 {
     );
 
     TweenMax.fromTo(
+      '.wan',
+      0.5,
+      {
+        transform: 'translateY(30px)',
+        opacity: 0
+      },
+      {
+        delay: 1.5,
+        ease: Back.easeOut,
+        transform: 'translateY(0)',
+        opacity: 1
+      }
+    );
+
+    TweenMax.fromTo(
       '.cloud-green',
       0.5,
       {
@@ -192,6 +207,19 @@ export default class slide5 {
 
     TweenMax.fromTo(
       '.cloud-green',
+      0.5,
+      {
+        transform: 'translateY(0)',
+        opacity: 1
+      },
+      {
+        transform: 'translateY(30px)',
+        opacity: 0
+      }
+    );
+
+    TweenMax.fromTo(
+      '.wan',
       0.5,
       {
         transform: 'translateY(0)',

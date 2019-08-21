@@ -112,6 +112,7 @@
     height: 23rem;
     transform-origin: 50% 50%;
     background: $black;
+    opacity: 0;
     z-index: 1;
   }
 }
@@ -132,6 +133,7 @@
   width: 7.5rem;
   transform-origin: 50% 50%;
   z-index: 2;
+  opacity: 0;
 }
 
 #building {
@@ -185,4 +187,14 @@ p.slide-five-subtitle {
 
 .cl_logo {
   width: 18.5rem;
+}
+
+.wan {
+  color: $white;
+  position: relative;
+  z-index: 1;
+  font-size: 2rem;
+  max-width: 100px;
+  text-align: center;
+  opacity: 0;
 }
