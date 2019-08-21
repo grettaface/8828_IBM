@@ -5,12 +5,16 @@
   opacity: 0;
 
   img {
-    height: 9.285rem;
+    max-width: 6rem;
+    // max-height: 6rem;
+    display: inline-block;
+    flex: 1;
   }
 }
 
 .slide-pod__content {
   padding-left: 3.5rem;
+  flex: 10;
 }
 
 .slide-pod-title {
