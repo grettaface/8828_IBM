@@ -50,7 +50,7 @@ export default class slide4 {
     );
 
     TweenMax.staggerFromTo(
-      '.slide-pod',
+      '.slide-four .slide-pod',
       0.6,
       {
         opacity: 0,
@@ -132,8 +132,10 @@ export default class slide4 {
       }
     );
 
+    console.log($('.slide-four .slide-pod'))
+
     TweenMax.fromTo(
-      '.slide-pod',
+      '.slide-four .slide-pod',
       0.3,
       {
         opacity: 1,

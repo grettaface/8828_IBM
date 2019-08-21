@@ -40,8 +40,7 @@
 }
 
 .network-partner__sidebar__content {
-  margin-top: -5rem;
-  // max-width: 400px;
+  margin-top: -8rem;
 }
 
 .network-partner-pod {
@@ -62,9 +61,10 @@
   color: $white;
   padding-bottom: 10px;
   font-family: 'Maison-Bold', Arial, sans-serif;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   color: $primary-color;
   width: 100%;
+  align-self: flex-start;
 }
 
 .network-partner-description {

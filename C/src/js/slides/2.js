@@ -54,7 +54,7 @@ export default class slide2 {
     );
 
     TweenMax.staggerFromTo(
-      '.network-grid__item',
+      '.slide-two .network-grid__item',
       0.6,
       {
         opacity: 0,
@@ -110,7 +110,7 @@ export default class slide2 {
     );
 
     TweenMax.fromTo(
-      '.network-grid__item',
+      '.slide-two .network-grid__item',
       0.3,
       {
         opacity: 1,

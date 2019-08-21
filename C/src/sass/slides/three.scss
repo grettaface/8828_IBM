@@ -30,3 +30,15 @@
     }
   }
 }
+
+.slide-three-vmware {
+  position: absolute;
+  top: 26.6rem;
+  left: 12.85rem;
+  width: 40%;
+  opacity: 0;
+
+  @media screen and (min-width: 1400px) {
+    top: 23.6rem;
+  }
+}
