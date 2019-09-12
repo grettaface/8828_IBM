@@ -1,0 +1,27 @@
+.home-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  height: 100%;
+
+  h3 {
+    @include column(4/7);
+  }
+}
+
+.color-blocks {
+  @include column(8/16);
+  display: flex;
+  flex: 1;
+}
+
+.color-block {
+  height: 50%;
+  width: 50%;
+  background: $blue;
+  opacity: 0.25;
+
+  &:first-child {
+    align-self: flex-end;
+  }
+}

@@ -1,0 +1,19 @@
+@import '../../node_modules/jeet/scss/index';
+
+// variables
+@import 'config/variables';
+@import 'config/animations';
+
+@import 'config/layout';
+
+
+// components
+@import 'components/body';
+@import 'components/main-content';
+@import 'components/navigation';
+@import 'components/slide';
+@import 'components/slide-navigation';
+@import 'components/typography';
+
+@import 'slides/home';
+@import 'slides/one';

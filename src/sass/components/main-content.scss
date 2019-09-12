@@ -1,0 +1,16 @@
+.main-content,
+.main-scene {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  @include column(16/16, $offset: 0, $gutter: 30);
+}
+
+.scene-container {
+  position: absolute;
+  left: 0;
+  height: 100vh;
+  display: flex;
+  width: 20000px;
+}

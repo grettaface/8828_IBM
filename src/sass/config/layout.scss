@@ -1,0 +1,10 @@
+.left-column__small {
+  @include column(4/16);
+  padding: 100px 30px;
+}
+
+.left-column__large {
+  @include column(7/16);
+  padding: 100px 30px;
+
+}
