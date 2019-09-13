@@ -24,9 +24,40 @@
   background-position: center center;
 }
 
-// .slide-one {
-//   background: $black url('../images/backgrounds/3.jpg') no-repeat 0 0;
-//   background-size: cover;
-//   background-position: left center;
-// }
+.slide-five {
+  background: $black url('../images/backgrounds/1.jpg') no-repeat 0 0;
+  background-size: cover;
+  background-position: left center;
+}
 
+.slide-ten {
+  background: $black url('../images/backgrounds/2.jpg') no-repeat 0 0;
+  background-size: cover;
+  background-position: left center;
+}
+
+
+.slide-fifteen {
+  background: $black url('../images/backgrounds/2.jpg') no-repeat 0 0;
+  background-size: cover;
+  background-position: left center;
+}
+
+.intro-slide-content{
+  @include column(8/16);
+  display: flex;
+  flex: 1;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  font-size: 4.875rem;
+  font-family: 'IBM-Plex-Light', Arial, sans-serif;
+  padding-left: 60px;
+  padding-bottom: 100px;
+  opacity: 0;
+}
+
+.intro-slide__text {
+  @include column(7/8);
+}

@@ -1,12 +1,50 @@
-import { TweenMax, Power4 } from 'gsap/umd/TweenMax';
+import { TweenMax } from 'gsap';
+import Typewriter from 'typewriter-effect/dist/core';
 
 export default class home {
-  constructor() {}
+  constructor() {
+    this.headerType = new Typewriter('#home-header', {
+      delay: 20,
+      cursor: '_'
+    });
+  }
+
+  animationComplete() {
+    TweenMax.fromTo(
+      '#home-subheader',
+      1,
+      {
+        opacity: 0,
+        transform: 'translateY(30px)'
+      },
+      {
+        opacity: 1,
+        transform: 'translateY(0)'
+      }
+    );
+  }
+
   mount() {
-    console.log('mount');
+    this.headerType
+      .typeString('Infrastructure for every stage of your AI journey')
+      .start()
+      .callFunction(this.animationComplete);
   }
 
   unmount() {
     console.log('un mount');
+    this.headerType.deleteAll('fast');
+    TweenMax.fromTo(
+      '#home-subheader',
+      1,
+      {
+        opacity: 1,
+        transform: 'translateY(0)'
+      },
+      {
+        opacity: 0,
+        transform: 'translateY(30px)'
+      }
+    );
   }
 }

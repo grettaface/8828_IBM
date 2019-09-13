@@ -20,6 +20,7 @@
     "panzoom": "^7.1.0",
     "popper.js": "^1.14.3",
     "sass-mq": "^4.0.2",
+    "typewriter-effect": "^2.10.0",
     "underscore": "^1.9.1"
   },
   "devDependencies": {

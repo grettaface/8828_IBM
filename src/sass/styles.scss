@@ -10,6 +10,8 @@
 // components
 @import 'components/body';
 @import 'components/main-content';
+@import 'components/menu';
+@import 'components/navBlocks';
 @import 'components/navigation';
 @import 'components/slide';
 @import 'components/slide-navigation';
@@ -17,3 +19,7 @@
 
 @import 'slides/home';
 @import 'slides/one';
+
+@import 'slides/five';
+@import 'slides/ten';
+@import 'slides/fifteen';

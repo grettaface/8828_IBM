@@ -5,52 +5,62 @@ export default class SlideNavigation {
   constructor({ slides, callback, element }) {
     this.sni = null;
     this.initial = true;
-    this.currentSlide = slides[0];
+    this.currentSlideIndex = 0;
+    this.currentSlide = slides[this.currentSlideIndex];
     this.slides = slides;
     this.callback = callback;
-    this.slideNavigationIndicator = $('.slide-navigation__indicator', element);
     this.sceneContainer = $('.scene-container');
 
-    let navItems = '';
+    this.changeSlide = this.changeSlide.bind(this);
 
-    // Populate nav
-    slides.forEach((item, index) => {
-      if (item.icon === null) {
-        navItems += `<div class="slide-navigation__item" data-slide-index="${index}">${item.label}</div>`;
-      } else {
-        navItems += `<div class="slide-navigation__item" data-slide-index="${index}"><img src="./images/icons/${item.label}.svg" /></div>`;
-      }
+    this.leftArrow = $('.arrow-left');
+    this.rightArrow = $('.arrow-right');
+
+    this.leftArrow.on('click', () => {
+      this.changeSlide(--this.currentSlideIndex);
     });
 
-    $('.slide-navigation__items').html(navItems);
-
-    this.sni = $('.slide-navigation__item');
-
-    // Add click callbacks
-    this.sni.on('click', e => {
-      const ct = $(e.currentTarget);
-      this.slideIndicator(ct);
-      this.changeSlide(ct.attr('data-slide-index'));
+    this.rightArrow.on('click', () => {
+      this.changeSlide(++this.currentSlideIndex);
     });
 
-    // Trigger first item
-    this.sni[0].click();
-  }
-
-  // Move the indicator to the right spot
-  slideIndicator(item) {
-    this.sni.removeClass('active');
-    item.addClass('active');
-
-    this.slideNavigationIndicator.css({
-      left: item.offset().left - 3, // TODO: Figure out why this is offset and requires a magic number
-      width: item.width()
+    $('.slide-navigation__menu').on('click', () => {
+      callback();
     });
+
+    this.changeSlide(0);
   }
 
   // Transition the slide
   changeSlide(di) {
     di = parseInt(di);
+
+    this.currentSlideIndex = di;
+
+    if (di < 0) {
+      this.currentSlideIndex = 0;
+      return false;
+    }
+
+    if (di > this.slides.length - 1) {
+      this.currentSlideIndex = this.slides.length - 1;
+      this.rightArrow.addClass('inactive');
+      return false;
+    } else {
+      this.rightArrow.removeClass('inactive');
+    }
+
+    if (this.currentSlideIndex === 0) {
+      this.leftArrow.addClass('inactive');
+    } else {
+      this.leftArrow.removeClass('inactive');
+    }
+
+    if (this.currentSlideIndex === this.slides.length - 1) {
+      this.rightArrow.addClass('inactive');
+    } else {
+      this.rightArrow.removeClass('inactive');
+    }
 
     if (di === this.currentSlide.index && !this.initial) {
       return;
@@ -61,8 +71,6 @@ export default class SlideNavigation {
     } else {
       $('.slide-navigation').removeClass('inactive');
     }
-
-    this.slideIndicator($(`[data-slide-index=${di}]`));
 
     // Unmount current slide
     if (!this.initial) this.currentSlide.class.unmount();
@@ -79,6 +87,6 @@ export default class SlideNavigation {
 
     setTimeout(() => {
       this.slides[di].class.mount();
-    }, duration * 1000 * 0.5);
+    }, duration * 1000);
   }
 }

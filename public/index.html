@@ -14,11 +14,37 @@
     <div class="main-content">
 <div class="main-scene">
   <div class="scene-container">
-    <div class="slide slide-home">
+    <div class="slide menu">
+      <div class="menu-content">
+        <div class="menu-header">Pick a section to visit:</div>
+        <div class="menu-items">
+          <div class="menu-item" data-item="1">
+            <div class="menu-item__number">1</div>
+            <div class="menu-item__label">Overview</div>
+          </div>
+          <div class="menu-item" data-item="5">
+            <div class="menu-item__number">2</div>
+            <div class="menu-item__label">Data</div>
+          </div>
+          <div class="menu-item" data-item="10">
+            <div class="menu-item__number">3</div>
+            <div class="menu-item__label">Train</div>
+          </div>
+          <div class="menu-item" data-item="15">
+            <div class="menu-item__number">4</div>
+            <div class="menu-item__label">Inference</div>
+          </div>
+          <div class="menu-item" data-item="21">
+            <div class="menu-item__number">5</div>
+            <div class="menu-item__label">Get started</div>
+          </div>
+        </div>
+      </div>
+    </div>    <div class="slide slide-home">
       <div class="home-content">
         <div class="left-column__large">
-          <h1>Infrastructure for every stage of your AI journey</h1>
-          <h3>With a strong foundation, you can deploy AI across your entire business.</h3>
+          <h1 id="home-header"></h1>
+          <h3 id="home-subheader">With a strong foundation, you can deploy AI across your entire business.</h3>
         </div>
         <div class="color-blocks">
           <div class="color-block"></div>
@@ -26,66 +52,145 @@
         </div>
       </div>
     </div>    <div class="slide slide-one">
-      <div id="slide-one-bar-1" class="slide-bar"></div>
       <div class="slide-one-content">
-        <h2>What challenges <br/>are you facing?</h2>
-        <div class="owner-grid">
-          <div class="owner-grid__item">
-            <div class="cube">
-              <div class="side front">
-                <img class="large-icon" src="./images/icons/apps.svg"/>
-                  <div class="card-container">
-                    <div class="card-subtitle">Application Layer:</div>
-                    I need to maximize my ability to build and manage my applications and their performance.
-                  </div>          
-                </div>
-              <div class="side right">
-                <img src="./images/icons/close.svg" class="card-close"/>
-                Enterprises need to securely connect and manage their geographically distributed business applications, data, and end users.
-              </div>
-            </div>
+        <h1>Slide 1</h1>
+      </div>
+    </div>    <div class="slide slide-one">
+      <div class="slide-one-content">
+        <h1>Slide 2</h1>
+      </div>
+    </div>    <div class="slide slide-three">
+      <div class="slide-three-content">
+        <h1>Slide 3</h1>
+      </div>
+    </div>    <div class="slide slide-four">
+      <div class="slide-four-content">
+        <h1>Slide 4</h1>
+      </div>
+    </div>    <div class="slide slide-five">
+      <div class="slide-five-content">
+        <div class="intro-slide-content">
+          <div class="intro-slide__text">Data Scientists spend nearly <span class="bold">2/3 of their time </span>simply
+            cleaning and organizing data.*
+    
+            <div class="attribution">* https://taxandbusinessonline.villanova.edu/blog/the-talent-gap-in-data-analytics/</div>
           </div>
-    
-           <div class="owner-grid__item">
-            <div class="cube">
-              <div class="side front">
-                <img class="large-icon" src="./images/icons/server.svg"/>
-                  <div class="card-container">
-                    <div class="card-subtitle">Infrastructure Layer:</div>
-                     I need to increase control and visibility of my infrastructure to deliver an optimal cloud strategy.
-                  </div>          
-                </div>
-              <div class="side right">
-                <img src="./images/icons/close.svg" class="card-close"/>
-                To scale and meet their business needs, enterprises are breaking up monolithic legacy applications into agile, service-based cloud applications.
-              </div>
-            </div>
+        </div>
+        <div class="nav-blocks">
+          <div class="nav-block" data-index="6">
+            <div class="nav-block__number">01</div>
+            <div class="nav-block__title">IBM Power System LC922</div>
           </div>
-    
-    
-          <div class="owner-grid__item">
-            <div class="cube">
-              <div class="side front">
-                <img class="large-icon" src="./images/icons/network.svg"/>
-                  <div class="card-container">
-                    <div class="card-subtitle">Network Layer:</div>
-                    I need to deploy and manage a network that is as flexible and agile as the cloud itself.
-                  </div>          
-                </div>
-              <div class="side right">
-                <img src="./images/icons/close.svg" class="card-close"/>
-                Enterprises expect flexibility in their underlying network environments to optimize the user experience and ensure smooth application performance.  
-              </div>
-            </div>
+          <div class="nav-block" data-index="8">
+            <div class="nav-block__number">02</div>
+            <div class="nav-block__title">IBM Watson Studio (Cloud)</div>
           </div>
-    
-    
         </div>
       </div>
+    </div>    <div class="slide slide-six">
+      <div class="slide-six-content">
+        <h1>Slide 6</h1>
+      </div>
+    </div>    <div class="slide slide-seven">
+      <div class="slide-seven-content">
+        <h1>Slide 7</h1>
+      </div>
+    </div>    <div class="slide slide-eight">
+      <div class="slide-eight-content">
+        <h1>Slide 8</h1>
+      </div>
+    </div>    <div class="slide slide-nine">
+      <div class="slide-nine-content">
+        <h1>Slide 9</h1>
+      </div>
+    </div>    <div class="slide slide-ten">
+      <div class="slide-ten-content">
+        <div class="intro-slide-content">
+          <div class="intro-slide__text">Training is compute- intensive and requires infrastructure that breaks performance and compute barriers.
+          </div>
+        </div>
+        <div class="nav-blocks">
+          <div class="nav-block" data-index="11">
+            <div class="nav-block__number">01</div>
+            <div class="nav-block__title">IBM Power System AC922</div>
+          </div>
+          <div class="nav-block" data-index="13">
+            <div class="nav-block__number">02</div>
+            <div class="nav-block__title">IBM Watson Machine Learning Accelerator</div>
+          </div>
+        </div>
+      </div>
+    </div>    <div class="slide slide-eleven">
+      <div class="slide-eleven-content">
+        <h1>Slide 11</h1>
+      </div>
+    </div>    <div class="slide slide-twelve">
+      <div class="slide-twelve-content">
+        <h1>Slide 12</h1>
+      </div>
+    </div>    <div class="slide slide-thirteen">
+      <div class="slide-thirteen-content">
+        <h1>Slide 13</h1>
+      </div>
+    </div>    <div class="slide slide-fourteen">
+      <div class="slide-fourteen-content">
+        <h1>Slide 14</h1>
+      </div>
+    </div>    <div class="slide slide-fifteen">
+      <div class="slide-fifteen-content">
+        <div class="intro-slide-content">
+          <div class="intro-slide__text">There’s more to this stage than waiting for a readout of results. <span class="bold">Much more.</span>
+          </div>
+        </div>
+        <div class="nav-blocks">
+          <div class="nav-block" data-index="16">
+            <div class="nav-block__number">01</div>
+            <div class="nav-block__title">IBM Power System AC922</div>
+          </div>
+          <div class="nav-block" data-index="18">
+            <div class="nav-block__number">02</div>
+            <div class="nav-block__title">IBM Watson Machine Learning</div>
+          </div>
+           <div class="nav-block" data-index="20">
+            <div class="nav-block__number">03</div>
+            <div class="nav-block__title">IBM Watson OpenScale</div>
+          </div>
+        </div>
+      </div>
+    </div>    <div class="slide slide-sixteen">
+      <div class="slide-sixteen-content">
+        <h1>Slide 16</h1>
+      </div>
+    </div>    <div class="slide slide-seventeen">
+      <div class="slide-seventeen-content">
+        <h1>Slide 17</h1>
+      </div>
+    </div>    <div class="slide slide-eighteen">
+      <div class="slide-eighteen-content">
+        <h1>Slide 18</h1>
+      </div>
+    </div>    <div class="slide slide-nineteen">
+      <div class="slide-nineteen-content">
+        <h1>Slide 19</h1>
+      </div>
+    </div>    <div class="slide slide-twenty">
+      <div class="slide-twenty-content">
+        <h1>Slide 20</h1>
+      </div>
+    </div>    <div class="slide slide-twentyone">
+      <div class="slide-twentyone-content">
+        <h1>Slide 21</h1>
+      </div>
+    </div>    <div class="slide slide-twentytwo">
+      <div class="slide-twentytwo-content">
+        <h1>Slide 22</h1>
+      </div>
     </div>  </div>
-</div><div class="slide-navigation inactive">
-  <div class="slide-navigation__indicator"></div>
+</div><div class="slide-navigation">
   <div class="slide-navigation__items">
+    <div class="slide-navigation__arrow arrow-left"><img src="images/icons/arrow-left.svg" alt="Left Arrow"/></div>
+    <div class="slide-navigation__arrow arrow-right"><img src="images/icons/arrow-right.svg" alt="Right Arrow"/></div>
+    <div class="slide-navigation__menu">Menu</div>
   </div>
 </div>
       </div>
