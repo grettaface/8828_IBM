@@ -1,9 +1,11 @@
 import $ from 'jquery';
+import './plugins/donutty';
 import SlideNavigation from './components/slideNavigation';
 import Menu from './components/menu';
 
 import homeSlide from './slides/home';
 import slide1 from './slides/1';
+import slide2 from './slides/2';
 
 import slide5 from './slides/5';
 
@@ -14,7 +16,7 @@ import slide15 from './slides/15';
 const slideArray = [
   { label: 'home', icon: 'home', index: 0, class: new homeSlide() },
   { label: '01', icon: null, index: 1, class: new slide1() },
-  { label: '02', icon: null, index: 2, class: new slide1() },
+  { label: '02', icon: null, index: 2, class: new slide2() },
   { label: '03', icon: null, index: 3, class: new slide1() },
   { label: '04', icon: null, index: 4, class: new slide1() },
   {

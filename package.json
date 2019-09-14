@@ -15,6 +15,7 @@
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "bootstrap": "^4.1.1",
+    "donutty": "^1.2.3",
     "gsap": "2.0.2",
     "jquery": "^3.3.1",
     "panzoom": "^7.1.0",

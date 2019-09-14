@@ -1,0 +1,232 @@
+.slide-two {
+
+  .right-column {
+    @include column(10/16);
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+  }
+}
+
+.dot-imagery {
+  padding: 0 150px 30px;
+  margin-bottom: 40px;
+  background: transparent url('../images/dash-background.svg') no-repeat bottom center;
+}
+
+.dot-content {
+  position: relative;
+  flex: 1;
+  height: 100px;
+  padding: 30px;
+  display: flex;
+}
+
+.dot-content__image {
+  display: flex;
+  align-items: center;
+  flex: 2;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.dot-content__text {
+  color: white;
+  flex: 3;
+}
+
+.dot-content-detail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  background: #171717;
+  padding: 15px 30px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.3s ease-out;
+
+  &.active {
+    opacity:1;
+    transform: translateY(0);
+  }
+
+}
+
+.dot-content__title,.dot-content__link {
+  font-family: 'IBM-Plex-Bold', Arial, sans-serif;
+  color: $soft-blue;
+  font-size: 1.43rem;
+  line-height: 1.85rem;
+  margin: 14px 0;
+
+  
+}
+
+.dot-content__link {
+  display: flex;
+  align-items: flex-end;
+
+  img {
+    padding-left: 10px;
+    height: 20px;
+  }
+
+}
+
+.dot-content__description {
+  font-family: 'IBM-Plex-Light', Arial, sans-serif;
+  font-size: 1.14rem;
+  line-height: 1.57rem;
+}
+
+.dot-column {
+  position: relative;
+  width: 233px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: black;
+  justify-content: flex-end;
+
+  &::after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-style: solid;
+    border-width: 0 14px 14px 14px;
+    border-color: transparent transparent $dark-gray transparent;
+    transition: all 0.3s ease-out;
+  }
+
+  &.active::after {
+    border-color: transparent transparent $hover-blue transparent;
+  }
+}
+
+.dot-column__arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 114px;
+  height: 12px;
+  padding-top: 230px;
+}
+
+.dot-column__titles {
+  display: flex;
+}
+
+.dot-column-title-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 30px;
+  
+  &::after {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 14px 14px 0 14px;
+    margin: auto;
+    border-color: $dark-gray transparent transparent transparent;
+    transition: all 0.3s ease-out;
+
+  }
+
+  .active &::after {
+    border-color: $hover-blue transparent transparent transparent;
+  }
+}
+
+.dot-column__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.dot-column-title {
+  font-family: 'IBM-Plex-Light', Arial, sans-serif;
+  font-size: 1.14rem;
+  line-height: 1.28rem;
+  background: $dark-gray;
+  padding: 5px 10px;
+  color: white;
+  margin: 4px 0;
+  transition: all 0.3s ease-out;
+
+  .active & {
+    background: $hover-blue;
+  }
+}
+
+.dot-columns {
+  display: flex;
+}
+
+.dot-column-circle {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  background: $dark-gray;
+  border: 15px solid #565656;
+  border-radius: 90px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 0.3s ease-out;
+
+  .active & {
+    background: $hover-blue;
+    border-color: lighten($hover-blue, 10);
+  }
+
+  img {
+    width: 50px;
+  }
+}
+
+.dot-columns-sections {
+  margin-top: 40px;
+}
+
+.dot-title {
+  color: white;
+  font-family: 'IBM-Plex-Light', Arial, sans-serif;
+  font-size: 1.42rem;
+}
+
+.dot-columns__row {
+  display: flex;
+  justify-content: space-between;
+
+  .dot-column-title {
+    flex: 1;
+
+    &.col-1 {
+      width: 233px;
+      flex: none;
+    }
+
+    &.col-2 {
+      width: 585px;
+      flex: none;
+    }
+  }
+}

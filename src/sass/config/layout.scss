@@ -8,3 +8,7 @@
   padding: 100px 30px;
 
 }
+
+.right-column {
+  @include column(10/16);
+}

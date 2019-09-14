@@ -59,6 +59,32 @@ h3 {
   margin-top: 0;
 }
 
+h4 {
+  color: $white;
+  font-size: 4.28rem;
+  line-height: 5.28rem;
+  padding: 0;
+  margin-bottom: 20px;
+  font-family: 'IBM-Plex-Thin', Arial, sans-serif;
+  margin-top: 0;
+}
+
+.body-copy {
+  color: white;
+  font-size: 1.42rem;
+  font-family: 'IBM-Plex-Thin', Arial, sans-serif;
+  line-height: 1.85rem;
+}
+
+.instruction {
+  color: $light-gray;
+  font-size: 1.42rem;
+  font-family: 'IBM-Plex-Thin', Arial, sans-serif;
+  line-height: 1.85rem;
+  font-style: italic;
+  margin-top: 30px;
+}
+
 .bold {
   font-family: 'IBM-Plex-Bold';
 }
