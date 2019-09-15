@@ -24,23 +24,65 @@
   background-position: center center;
 }
 
-.slide-five {
+.slide-three {
   background: $black url('../images/backgrounds/1.jpg') no-repeat 0 0;
   background-size: cover;
   background-position: left center;
 }
 
-.slide-ten {
+.slide-six {
   background: $black url('../images/backgrounds/2.jpg') no-repeat 0 0;
   background-size: cover;
   background-position: left center;
 }
 
 
-.slide-fifteen {
+.slide-nine {
   background: $black url('../images/backgrounds/2.jpg') no-repeat 0 0;
   background-size: cover;
   background-position: left center;
+}
+
+.slide-title {
+  display: flex;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.slide-title__icon {
+  width: 100px;
+}
+
+.slide-title__text {
+  color: white;
+  font-family: 'IBM-Plex-Thin', Arial, sans-serif;
+  font-size: 2.57rem;
+  line-height: 3.14rem;
+  padding-left: 45px;
+}
+
+.slide-description {
+  color: white;
+  font-family: 'IBM-Plex-Thin', Arial, sans-serif;
+  font-size: 4.28rem;
+  line-height: 5.28rem;
+  padding-bottom: 60px;
+}
+
+.slide-description__small {
+  color: white;
+  font-family: 'IBM-Plex-Thin', Arial, sans-serif;
+  font-size: 3rem;
+  line-height: 3.57rem;
+  padding-bottom: 60px;
+}
+
+.slide-image {
+  @include column(3/4);
+
+  img {
+    width: 100%;
+  }
 }
 
 .intro-slide-content{

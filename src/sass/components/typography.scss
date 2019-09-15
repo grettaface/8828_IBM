@@ -74,6 +74,10 @@ h4 {
   font-size: 1.42rem;
   font-family: 'IBM-Plex-Thin', Arial, sans-serif;
   line-height: 1.85rem;
+
+  p:first-child {
+    margin-top: 0;
+  }
 }
 
 .instruction {
@@ -83,6 +87,14 @@ h4 {
   line-height: 1.85rem;
   font-style: italic;
   margin-top: 30px;
+}
+
+.blue-title {
+  font-family: 'IBM-Plex-Bold', Arial, sans-serif;
+  color: $soft-blue;
+  font-size: 1.43rem;
+  line-height: 1.85rem;
+  margin: 14px 0;
 }
 
 .bold {

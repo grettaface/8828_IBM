@@ -1,4 +1,3 @@
-import $ from 'jquery';
 import TweenMax from 'gsap';
 
 let donut = new Donutty(document.getElementById('donut-chart'), {

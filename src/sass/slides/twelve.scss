@@ -1,0 +1,5 @@
+.slide-twelve {
+  .slide-description__small {
+    @include column(3/4);
+  }
+}

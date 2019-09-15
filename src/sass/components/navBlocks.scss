@@ -7,6 +7,8 @@
 .nav-block {
   background: black;
   padding: 70px 25px;
+  opacity: 0;
+  transform: translateY(30px);
 }
 
 .nav-block__number {

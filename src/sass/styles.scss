@@ -3,9 +3,7 @@
 // variables
 @import 'config/variables';
 @import 'config/animations';
-
 @import 'config/layout';
-
 
 // components
 @import 'components/body';
@@ -14,12 +12,17 @@
 @import 'components/navBlocks';
 @import 'components/navigation';
 @import 'components/slide';
+@import 'components/slider';
 @import 'components/slide-navigation';
 @import 'components/typography';
 
 @import 'slides/home';
 @import 'slides/one';
 @import 'slides/two';
-@import 'slides/five';
+@import 'slides/three';
+@import 'slides/six';
+@import 'slides/nine';
 @import 'slides/ten';
-@import 'slides/fifteen';
+@import 'slides/eleven';
+@import 'slides/twelve';
+@import 'slides/thirteen';

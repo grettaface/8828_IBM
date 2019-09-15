@@ -1,0 +1,69 @@
+.slider {
+  @include column(8/12);
+  padding-top: 290px;
+
+  .instruction {
+    padding-bottom: 25px;
+  }
+}
+
+.slider-title {
+  color: $soft-blue;
+  font-family: 'IBM-Plex-Bold',Arial,sans-serif;
+  font-size: 1.43rem;
+  line-height: 1.85rem;
+  margin-bottom: 14px;
+}
+
+.slider-icon {
+  @include column(2/8);
+  opacity: 0;
+  transform: scale(0.8);
+
+  img {
+    border-radius: 90px;
+    width: 180px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease-out;
+  }
+
+  .body-copy {
+    @include column(7/8);
+    color: $light-gray;
+    transition: all 0.3s ease-out;
+
+  }
+
+  &.active {
+    img {
+      background: linear-gradient(to bottom, $blue, darken($blue, 20));
+    }
+
+    .body-copy {
+      color: white;
+    }
+  }
+}
+
+.slider-icons {
+  display: flex;
+  padding-bottom: 35px;
+}
+
+.slider-content {
+  position: relative;
+}
+
+.slider-content__item {
+  position: absolute;
+  padding: 30px;
+  background: $dark-gray;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.3s ease-out;
+
+  &.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,5 @@
+.slide-thirteen {
+  .slide-description__small {
+    @include column(11/16);
+  }
+}

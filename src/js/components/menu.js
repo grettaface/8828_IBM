@@ -74,7 +74,6 @@ export default class Menu {
       },
       0.1,
       () => {
-        console.log('gone');
         this.element.hide();
       }
     );

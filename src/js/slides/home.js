@@ -32,7 +32,6 @@ export default class home {
   }
 
   unmount() {
-    console.log('un mount');
     this.headerType.deleteAll('fast');
     TweenMax.fromTo(
       '#home-subheader',
