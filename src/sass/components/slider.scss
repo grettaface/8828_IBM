@@ -7,6 +7,11 @@
   }
 }
 
+.sliding {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
 .slider-title {
   color: $soft-blue;
   font-family: 'IBM-Plex-Bold',Arial,sans-serif;

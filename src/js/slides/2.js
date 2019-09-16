@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import { TweenMax } from 'gsap';
 
 let columns = $('.slide-two .dot-column');
 let dotContentDetail = $('.dot-content-detail');
@@ -22,9 +23,40 @@ export default class slide2 {
     });
   }
 
-  mount() {}
+  mount() {
+    TweenMax.staggerTo(
+      '.slide-two .sliding',
+      0.3,
+      {
+        opacity: 1,
+        transform: 'translateY(0)'
+      },
+      0.1
+    );
+
+    TweenMax.to('.slide-two .dot-imagery', 0.3, {
+      delay: 0.5,
+      opacity: 1,
+      transform: 'translateY(0)'
+    });
+  }
 
   unmount() {
+    TweenMax.staggerTo(
+      '.slide-two .sliding',
+      0.3,
+      {
+        opacity: 0,
+        transform: 'translateY(30px)'
+      },
+      0.1
+    );
+
+    TweenMax.to('.slide-two .dot-imagery', 0.3, {
+      opacity: 0,
+      transform: 'translateY(30px)'
+    });
+
     columns.removeClass('active');
     dotContentDetail.removeClass('active');
   }

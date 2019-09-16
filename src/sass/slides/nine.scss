@@ -1,5 +1,9 @@
 .slide-nine {
   display: flex;
+
+  .intro-slide__text {
+    @include column(16/20)
+  }
 }
 
 .slide-nine-content {

@@ -12,10 +12,9 @@ export default class NavBlocks {
   }
 
   mount() {
-    console.log('nav blocks loaded');
     TweenMax.staggerTo(
       this.menuItems,
-      0.5,
+      0.8,
       {
         opacity: 1,
         transform: 'translate(0)',

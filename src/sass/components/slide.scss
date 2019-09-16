@@ -50,10 +50,14 @@
 }
 
 .slide-title__icon {
+  opacity: 0;
+  transform: scale(0.8);
   width: 100px;
 }
 
 .slide-title__text {
+  opacity: 0;
+  transform: translateX(-30px);
   color: white;
   font-family: 'IBM-Plex-Thin', Arial, sans-serif;
   font-size: 2.57rem;
@@ -62,6 +66,8 @@
 }
 
 .slide-description {
+  opacity: 0;
+  transform: translateY(30px);
   color: white;
   font-family: 'IBM-Plex-Thin', Arial, sans-serif;
   font-size: 4.28rem;
@@ -70,6 +76,8 @@
 }
 
 .slide-description__small {
+  opacity: 0;
+  transform: translateY(30px);
   color: white;
   font-family: 'IBM-Plex-Thin', Arial, sans-serif;
   font-size: 3rem;
@@ -79,6 +87,8 @@
 
 .slide-image {
   @include column(3/4);
+  opacity: 0;
+  transform: translateY(30px);
 
   img {
     width: 100%;
@@ -86,7 +96,7 @@
 }
 
 .intro-slide-content{
-  @include column(8/16);
+  @include column(9/20);
   display: flex;
   flex: 1;
   height: 100%;
@@ -94,9 +104,10 @@
   justify-content: flex-end;
   color: white;
   font-size: 4.875rem;
+  line-height: 5.57rem;
   font-family: 'IBM-Plex-Light', Arial, sans-serif;
   padding-left: 60px;
-  padding-bottom: 100px;
+  padding-bottom: 130px;
   opacity: 0;
 }
 

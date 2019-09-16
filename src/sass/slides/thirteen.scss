@@ -2,4 +2,25 @@
   .slide-description__small {
     @include column(11/16);
   }
+
+  p {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+}
+
+.get-started {
+  margin-top: 72px;
+  font-family: 'IBM-Plex-Bold', Arial, sans-serif;
+  font-size: 3rem;
+  line-height: 3.57rem;
+  color: $soft-blue;
+}
+
+.representative {
+  margin-top: 20px;
+  font-family: 'IBM-Plex-Thin', Arial, sans-serif;
+  font-size: 2.57rem;
+  line-height: 2.14rem;
+
 }

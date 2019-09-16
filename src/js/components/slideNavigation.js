@@ -87,6 +87,6 @@ export default class SlideNavigation {
 
     setTimeout(() => {
       this.slides[di].class.mount();
-    }, duration * 1000);
+    }, duration * 1000 * 0.7);
   }
 }
