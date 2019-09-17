@@ -66,23 +66,28 @@
 }
 
 .slide-description {
-  opacity: 0;
-  transform: translateY(30px);
+
   color: white;
   font-family: 'IBM-Plex-Thin', Arial, sans-serif;
   font-size: 4.28rem;
   line-height: 5.28rem;
   padding-bottom: 60px;
+
+  div {
+    opacity: 0;
+  }
 }
 
 .slide-description__small {
-  opacity: 0;
-  transform: translateY(30px);
   color: white;
   font-family: 'IBM-Plex-Thin', Arial, sans-serif;
   font-size: 3rem;
   line-height: 3.57rem;
   padding-bottom: 60px;
+
+  div {
+    opacity: 0;
+  }
 }
 
 .slide-image {

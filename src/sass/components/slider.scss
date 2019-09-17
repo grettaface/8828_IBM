@@ -3,13 +3,13 @@
   padding-top: 290px;
 
   .instruction {
-    padding-bottom: 25px;
+    margin-bottom: 25px;
   }
 }
 
 .sliding {
   opacity: 0;
-  transform: translateY(30px);
+  transform: translateX(-30px);
 }
 
 .slider-title {
@@ -18,18 +18,27 @@
   font-size: 1.43rem;
   line-height: 1.85rem;
   margin-bottom: 14px;
+
+  &::after {
+    background: $soft-blue !important;
+  }
+
+  &.show {
+    color: $soft-blue !important;
+  }
+
 }
 
 .slider-icon {
   @include column(2/8);
   opacity: 0;
-  transform: scale(0.8);
+  transform: translateX(-20px);
 
   img {
     border-radius: 90px;
     width: 180px;
     margin-bottom: 15px;
-    transition: all 0.3s ease-out;
+    transition: all 1s ease-out;
   }
 
   .body-copy {
