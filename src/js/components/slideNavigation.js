@@ -1,26 +1,32 @@
 import $ from 'jquery';
 import { TweenLite, Power4 } from 'gsap';
 
+let background;
+let sceneContainer;
+let leftArrow;
+let rightArrow;
+
 export default class SlideNavigation {
   constructor({ slides, callback, element }) {
+    background = $('.background');
+
     this.sni = null;
     this.initial = true;
     this.currentSlideIndex = 0;
     this.currentSlide = slides[this.currentSlideIndex];
     this.slides = slides;
     this.callback = callback;
-    this.sceneContainer = $('.scene-container');
-
+    sceneContainer = $('.scene-container');
     this.changeSlide = this.changeSlide.bind(this);
 
-    this.leftArrow = $('.arrow-left');
-    this.rightArrow = $('.arrow-right');
+    leftArrow = $('.arrow-left');
+    rightArrow = $('.arrow-right');
 
-    this.leftArrow.on('click', () => {
+    leftArrow.on('click', () => {
       this.changeSlide(--this.currentSlideIndex);
     });
 
-    this.rightArrow.on('click', () => {
+    rightArrow.on('click', () => {
       this.changeSlide(++this.currentSlideIndex);
     });
 
@@ -44,22 +50,22 @@ export default class SlideNavigation {
 
     if (di > this.slides.length - 1) {
       this.currentSlideIndex = this.slides.length - 1;
-      this.rightArrow.addClass('inactive');
+      rightArrow.addClass('inactive');
       return false;
     } else {
-      this.rightArrow.removeClass('inactive');
+      rightArrow.removeClass('inactive');
     }
 
     if (this.currentSlideIndex === 0) {
-      this.leftArrow.addClass('inactive');
+      leftArrow.addClass('inactive');
     } else {
-      this.leftArrow.removeClass('inactive');
+      leftArrow.removeClass('inactive');
     }
 
     if (this.currentSlideIndex === this.slides.length - 1) {
-      this.rightArrow.addClass('inactive');
+      rightArrow.addClass('inactive');
     } else {
-      this.rightArrow.removeClass('inactive');
+      rightArrow.removeClass('inactive');
     }
 
     if (di === this.currentSlide.index && !this.initial) {
@@ -78,7 +84,7 @@ export default class SlideNavigation {
 
     const duration = this.initial ? 0 : 2;
     // Transition slide
-    TweenLite.to(this.sceneContainer, duration, {
+    TweenLite.to(sceneContainer, duration, {
       left: 0 - $(window).width() * di,
       ease: Power4.easeInOut
     });
@@ -87,6 +93,29 @@ export default class SlideNavigation {
 
     setTimeout(() => {
       this.slides[di].class.mount();
+
+      background.removeClass('data-background');
+      background.removeClass('train-background');
+      background.removeClass('inference-background');
+
+      // set background
+      if (di >= 3 && di <= 5) {
+        background.addClass('data-background');
+      }
+
+      if (di >= 6 && di <= 8) {
+        background.addClass('train-background');
+      }
+
+      if (di >= 9 && di <= 13) {
+        background.addClass('inference-background');
+      }
+
+      if (di === 13) {
+        background.fadeOut();
+      } else {
+        background.fadeIn();
+      }
     }, duration * 1000 * 0.7);
   }
 }

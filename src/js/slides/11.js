@@ -3,10 +3,18 @@ import $ from 'jquery';
 import Slider from '../components/slider';
 
 let slider;
+let mySplitText;
+let lines;
 
 export default class slide11 {
   constructor() {
     slider = new Slider({ element: $('.slide-eleven .slider') });
+
+    mySplitText = new SplitText('.slide-eleven .slide-description__small', {
+      type: 'lines'
+    });
+
+    lines = mySplitText.lines;
   }
 
   mount() {
@@ -22,11 +30,20 @@ export default class slide11 {
       transform: 'translateY(0)'
     });
 
-    TweenMax.to('.slide-eleven .slide-description__small', 0.5, {
-      delay: 0.5,
-      opacity: 1,
-      transform: 'translateY(0)'
-    });
+    TweenMax.staggerFromTo(
+      lines,
+      0.5,
+      {
+        opacity: 0,
+        transform: 'translateX(30px)'
+      },
+      {
+        ease: Power4.easeOut,
+        opacity: 1,
+        transform: 'translateX(0)'
+      },
+      0.1
+    );
 
     TweenMax.to('.slide-eleven .slide-image', 0.5, {
       delay: 0.7,
@@ -51,11 +68,20 @@ export default class slide11 {
       transform: 'translateX(-30px)'
     });
 
-    TweenMax.to('.slide-eleven .slide-description__small', 0.5, {
-      opacity: 0,
-      delay: 0.1,
-      transform: 'translateY(30px)'
-    });
+    TweenMax.staggerFromTo(
+      lines,
+      0.5,
+      {
+        opacity: 1,
+        transform: 'translateX(0)'
+      },
+      {
+        ease: Power4.easeIn,
+        opacity: 0,
+        transform: 'translateX(-30px)'
+      },
+      0.1
+    );
 
     TweenMax.to('.slide-eleven .slide-image', 0.5, {
       opacity: 0,

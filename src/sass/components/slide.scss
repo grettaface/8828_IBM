@@ -1,7 +1,6 @@
 .slide {
   width: 100vw;
   height: 100vh;
-  background: $black;
   position: relative;
   // padding: 100px 30px;
 }
@@ -24,8 +23,31 @@
   background-position: center center;
 }
 
+.slide-one, .slide-two {
+  background: black;
+}
+
 .slide-three {
   background: $black url('../images/backgrounds/1.jpg') no-repeat 0 0;
+  background-size: cover;
+  background-position: left center;
+}
+
+
+.data-background {
+  background: $black url('../images/backgrounds/circle.gif') no-repeat 0 0;
+  background-size: cover;
+  background-position: left center;
+}
+
+.train-background {
+  background: $black url('../images/backgrounds/triangles.gif') no-repeat 0 0;
+  background-size: cover;
+  background-position: left center;
+}
+
+.inference-background {
+  background: $black url('../images/backgrounds/circle_fpo.gif') no-repeat 0 0;
   background-size: cover;
   background-position: left center;
 }

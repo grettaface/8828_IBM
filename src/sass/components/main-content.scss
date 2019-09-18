@@ -5,6 +5,7 @@
   height: 100vh;
   overflow: hidden;
   @include column(16/16, $offset: 0, $gutter: 30);
+  z-index: 1;
 }
 
 .scene-container {
