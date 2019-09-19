@@ -48,7 +48,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  display: flex;
+  display: none;
   background: #171717;
   padding: 15px 30px;
   opacity: 0;
@@ -61,6 +61,11 @@
   }
 
 }
+
+.dot-content-detail__container {
+  display: flex;
+}
+
 
 .dot-content__title,.dot-content__link {
   font-family: 'IBM-Plex-Bold', Arial, sans-serif;
