@@ -6,6 +6,10 @@
     flex-direction: column;
     padding-top: 100px;
   }
+
+  .left-column__small h4 {
+    @include column(14/16);
+  }
 }
 
 .dot-imagery {

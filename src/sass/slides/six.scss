@@ -1,7 +1,12 @@
 .slide-six {
   display: flex;
+
+  .intro-slide__text {
+    @include column(13/16);
+  }
 }
 
 .slide-six-content {
   flex: 1;
+  display: flex;
 }

@@ -1,0 +1,5 @@
+.slide-eight {
+  .slide-description__small{
+    @include column(18/20)
+  }
+}

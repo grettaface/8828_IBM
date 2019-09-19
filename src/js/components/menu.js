@@ -13,6 +13,7 @@ export default class Menu {
   }
 
   show() {
+    $('.main-content').addClass('open');
     this.element.show();
     TweenMax.fromTo(
       this.element,
@@ -45,6 +46,8 @@ export default class Menu {
   }
 
   hide() {
+    $('.main-content').removeClass('open');
+
     TweenMax.fromTo(
       this.element,
       0.5,

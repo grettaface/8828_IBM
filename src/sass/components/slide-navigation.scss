@@ -11,6 +11,10 @@
   &.inactive {
     border-color: transparent;
   }
+
+  .open & {
+    display: none;
+  }
 }
 
 .slide-navigation__arrow {
