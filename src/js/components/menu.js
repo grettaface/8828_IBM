@@ -10,6 +10,10 @@ export default class Menu {
       onItemSelected($(e.currentTarget).attr('data-item'));
       this.hide();
     });
+
+    $('.nav-close').on('click', () => {
+      this.hide();
+    });
   }
 
   show() {

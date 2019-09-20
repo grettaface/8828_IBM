@@ -4,8 +4,8 @@ import Typewriter from 'typewriter-effect/dist/core';
 export default class home {
   constructor() {
     this.headerType = new Typewriter('#home-header', {
-      delay: 20,
-      cursor: '_'
+      delay: 20
+      // cursor: '_'
     });
   }
 
@@ -26,7 +26,7 @@ export default class home {
 
   mount() {
     this.headerType
-      .typeString('Infrastructure for every stage of your AI journey')
+      .typeString('Infrastructure for <br/>every stage of your<br/> AI journey')
       .start()
       .callFunction(this.animationComplete);
   }
