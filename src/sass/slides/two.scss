@@ -118,53 +118,8 @@
     transition: all 0.3s ease-out;
   }
 
-  &.active {
-    &[data-index='1'] {
-      .dot-column-circle {
-        border-color: #3a49f5;
-      }
-      .dot-column-title {
-        background: #3a49f5;
-      }
-
-      .dot-column-title-container::after {
-        border-color: #3a49f5 transparent transparent  transparent;
-      }
-      &:after {
-        border-color: transparent transparent #3a49f5 transparent;
-      }
-    }
-  
-    &[data-index='2'] {   
-      .dot-column-circle {
-        border-color: #1f83ff;
-      } 
-      .dot-column-title {
-        background: #1f83ff;
-      }
-      .dot-column-title-container::after {
-        border-color: #1f83ff transparent transparent  transparent;
-      }
-      &:after {
-        border-color: transparent transparent #1f83ff transparent;
-      }
-    }
-  
-    &[data-index='3'] {    
-      .dot-column-circle {
-        border-color: #85cdff;
-      } 
-      .dot-column-title {
-        background: #85cdff;
-        color: black;
-      }
-      .dot-column-title-container::after {
-        border-color: #85cdff transparent transparent  transparent;
-      }
-      &:after {
-        border-color: transparent transparent #85cdff transparent;
-      }
-    }
+  &.active::after {
+    border-color: transparent transparent $hover-blue transparent;
   }
 }
 
@@ -205,6 +160,10 @@
     transition: all 0.3s ease-out;
 
   }
+
+  .active &::after {
+    border-color: $hover-blue transparent transparent transparent;
+  }
 }
 
 .dot-column__container {
@@ -213,30 +172,17 @@
 }
 
 .dot-column-title {
-  position: relative;
   font-family: 'IBM-Plex-Light', Arial, sans-serif;
-  font-size: 0.75rem;
+  font-size: 1.14rem;
   line-height: 1.28rem;
   background: $dark-gray;
-  padding: 5px 10px 5px 30px;
-  border-radius: 20px;
+  padding: 5px 10px;
   color: white;
   margin: 4px 0;
   transition: all 0.3s ease-out;
 
   .active & {
     background: $hover-blue;
-  }
-
-  &::before {
-    content: '';
-    position: absolute;
-    left: 6px;
-    top: 6px;
-    height: 15px;
-    width: 15px;
-    background: black;
-    border-radius: 10px;
   }
 }
 
@@ -248,6 +194,7 @@
   position: relative;
   width: 180px;
   height: 180px;
+  background: $dark-gray;
   border: 15px solid #565656;
   border-radius: 90px;
   display: flex;
@@ -255,6 +202,11 @@
   flex-direction: column;
   justify-content: center;
   transition: all 0.3s ease-out;
+
+  .active & {
+    background: $hover-blue;
+    border-color: lighten($hover-blue, 10);
+  }
 
   img {
     width: 50px;
@@ -277,6 +229,15 @@
 
   .dot-column-title {
     flex: 1;
-    background: linear-gradient(to right, #3846e3, #86cdff);
+
+    &.col-1 {
+      width: 233px;
+      flex: none;
+    }
+
+    &.col-2 {
+      width: 585px;
+      flex: none;
+    }
   }
 }
