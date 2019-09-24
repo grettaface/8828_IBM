@@ -26,6 +26,12 @@ export default class slide2 {
           transform: 'translateY(0)'
         }
       );
+
+      if (ct.attr('data-index') > 1) {
+        $('.col-2').addClass('active');
+      } else {
+        $('.col-2').removeClass('active');
+      }
     });
 
     dotLink.on('click', e => {
@@ -35,6 +41,18 @@ export default class slide2 {
   }
 
   mount() {
+    for (let i = 0; i < columns.length; i++) {
+      setTimeout(() => {
+        $(columns[i])
+          .addClass('active')
+          .delay(1000)
+          .queue(function(next) {
+            $(this).removeClass('active');
+            next();
+          });
+      }, i * 400 + 1000);
+    }
+
     TweenMax.staggerTo(
       '.slide-two .sliding',
       0.3,

@@ -16,7 +16,7 @@
 }
 
 .donut-content__container {
-  @include column(6/8);
+  @include column(11/20);
   flex: 1;
 }
 
@@ -42,6 +42,9 @@
   padding-top: 15%;
   padding-left: 5%;
 
+  rect {
+    fill: transparent;
+  }
   svg {
     transform: rotate(270deg);
 

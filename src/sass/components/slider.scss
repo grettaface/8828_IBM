@@ -73,7 +73,8 @@
 .slider-content__item {
   position: absolute;
   padding: 30px;
-  background: $dark-gray;
+  background: #171717;
+
   opacity: 0;
   transform: translateY(30px);
   transition: all 0.3s ease-out;

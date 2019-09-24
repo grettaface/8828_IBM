@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import { TweenMax } from 'gsap';
 import Typewriter from 'typewriter-effect/dist/core';
 
@@ -32,7 +33,9 @@ export default class home {
   }
 
   unmount() {
-    this.headerType.deleteAll('fast');
+    setTimeout(() => {
+      $('.Typewriter__wrapper').html('');
+    }, 1000);
     TweenMax.fromTo(
       '#home-subheader',
       1,

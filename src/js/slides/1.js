@@ -1,4 +1,5 @@
 import TweenMax from 'gsap';
+import '../plugins/donutty';
 
 let donut = new Donutty(document.getElementById('donut-chart'), {
   color: '#054ad8',
@@ -11,7 +12,9 @@ let donut = new Donutty(document.getElementById('donut-chart'), {
 });
 
 export default class slide1 {
+  constructor() {}
   mount() {
+    console.log(donut);
     donut.set('value', 82);
     TweenMax.fromTo(
       '.donut-content__header',

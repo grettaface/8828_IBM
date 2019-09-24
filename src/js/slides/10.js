@@ -66,11 +66,11 @@ export default class slide10 {
       transform: 'translateY(0)'
     });
 
-    // TweenMax.to('.slide-ten .body-copy', 0.5, {
-    //   delay: 0.9,
-    //   opacity: 1,
-    //   transform: 'translateY(0)'
-    // });
+    TweenMax.to('.slide-ten .body-copy', 0.5, {
+      delay: 0.9,
+      opacity: 1,
+      transform: 'translateY(0)'
+    });
 
     TweenMax.to('.slide-ten video', 0.5, {
       delay: 1.1,
@@ -114,11 +114,11 @@ export default class slide10 {
       transform: 'translateY(30px)'
     });
 
-    // TweenMax.to('.slide-ten .body-copy', 0.5, {
-    //   delay: 0.2,
-    //   opacity: 0,
-    //   transform: 'translateY(30px)'
-    // });
+    TweenMax.to('.slide-ten .body-copy', 0.5, {
+      delay: 0.2,
+      opacity: 0,
+      transform: 'translateY(30px)'
+    });
 
     TweenMax.to('.slide-ten video', 0.5, {
       opacity: 0,
