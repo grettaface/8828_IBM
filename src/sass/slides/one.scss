@@ -1,6 +1,7 @@
 .slide-one-content {
   display: flex;
   height: 100%;
+  position: relative;
 }
 
 .donut-content {
@@ -37,20 +38,31 @@
 }
 
 #donut-chart {
-  @include column(8/16);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50vw;
+  height: 100vh;
+  overflow: visible;
+  padding-top: 13%;
+  padding-left: 8%;
   flex: 1;
-  padding-top: 15%;
-  padding-left: 5%;
 
-  rect {
-    fill: transparent;
+  &.filled #circle-graph {
+    stroke-dasharray: 3460;
+    stroke-dashoffset: 6460;
   }
+
+  #circle-graph {
+    stroke-dasharray: 3500;
+    stroke-dashoffset: 3500;
+    transition: all 0.8s ease-out;
+  }
+
   svg {
-    transform: rotate(270deg);
-
-    circle:first-child {
-      stroke-width: 4;
-      stroke: $dark-gray;
-    }
+    width: 985px;
+    height: 985px;
+    transform: rotate(-145deg);
   }
+
 }

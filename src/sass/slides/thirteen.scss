@@ -3,6 +3,8 @@
     @include column(13/16);
     font-size: 4.28rem;
     line-height: 5.28rem;
+    opacity: 0;
+    transform: translateY(30px);
   }
 
   p {

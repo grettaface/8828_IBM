@@ -1,21 +1,11 @@
+import $ from 'jquery';
 import TweenMax from 'gsap';
-import '../plugins/donutty';
 
-let donut = new Donutty(document.getElementById('donut-chart'), {
-  color: '#054ad8',
-  min: 0,
-  max: 100,
-  radius: 500,
-  round: false,
-  value: 0,
-  thickness: 32
-});
+let donutChart = $('#donut-chart');
 
 export default class slide1 {
-  constructor() {}
   mount() {
-    console.log(donut);
-    donut.set('value', 82);
+    donutChart.addClass('filled');
     TweenMax.fromTo(
       '.donut-content__header',
       0.5,
@@ -62,8 +52,7 @@ export default class slide1 {
   }
 
   unmount() {
-    donut.set('value', 0);
-
+    donutChart.removeClass('filled');
     TweenMax.fromTo(
       '.donut-content__header',
       0.5,
