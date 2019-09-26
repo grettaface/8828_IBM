@@ -89,11 +89,15 @@ export default class SlideNavigation {
       ease: Power4.easeInOut
     });
 
+    let backgroundDuration = duration * 1000;
+
+    if (di < this.currentSlide.index) {
+      backgroundDuration = 250;
+    }
+
     this.currentSlide = this.slides[di];
 
     setTimeout(() => {
-      this.slides[di].class.mount();
-
       background.removeClass('data-background');
       background.removeClass('train-background');
       background.removeClass('inference-background');
@@ -116,6 +120,10 @@ export default class SlideNavigation {
       } else {
         background.fadeIn();
       }
+    }, backgroundDuration);
+
+    setTimeout(() => {
+      this.slides[di].class.mount();
     }, duration * 1000 * 0.7);
   }
 }
