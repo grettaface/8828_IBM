@@ -1,11 +1,11 @@
 .nav-blocks {
   @include column(8/16);
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
 
 .nav-block {
-  background: black;
   padding: 70px 25px;
   opacity: 0;
   transform: translateY(30px);
