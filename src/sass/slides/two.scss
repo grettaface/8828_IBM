@@ -12,6 +12,14 @@
   }
 }
 
+.slide-two__content {
+  sup {
+    line-height: 0;
+    position: relative;
+    top: 10px;
+  }
+}
+
 .dot-imagery {
   opacity: 0;
   transform: translateY(30px);

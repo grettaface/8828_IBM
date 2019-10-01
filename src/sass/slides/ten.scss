@@ -11,4 +11,8 @@
     transform: translateY(30px);
     opacity: 0;
   }
+
+  .slide-description__small {
+    @include column(14/16);
+  }
 }
