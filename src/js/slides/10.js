@@ -7,7 +7,7 @@ let masked;
 
 export default class slide10 {
   constructor() {
-    video = $('video')[0];
+    // video = $('video')[0];
     masked = $('.slide-ten .masked');
     mySplitText = new SplitText('.slide-ten .slide-description__small', {
       type: 'lines'
@@ -17,7 +17,7 @@ export default class slide10 {
   }
 
   mount() {
-    video.play();
+    // video.play();
     for (let i = 0; i < masked.length; i++) {
       let item = $(masked[i]);
 
@@ -72,7 +72,7 @@ export default class slide10 {
       transform: 'translateY(0)'
     });
 
-    TweenMax.to('.slide-ten video', 0.5, {
+    TweenMax.to('.slide-ten img', 0.5, {
       delay: 1.1,
       opacity: 1,
       transform: 'translateY(0)'
@@ -120,12 +120,12 @@ export default class slide10 {
       transform: 'translateY(30px)'
     });
 
-    TweenMax.to('.slide-ten video', 0.5, {
+    TweenMax.to('.slide-ten img', 0.5, {
       opacity: 0,
       transform: 'translateY(30px)'
     });
 
-    video.currentTime = 0;
-    video.pause();
+    // video.currentTime = 0;
+    // video.pause();
   }
 }
