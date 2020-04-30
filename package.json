@@ -17,7 +17,7 @@
     "bootstrap": "^4.1.1",
     "donutty": "^1.2.3",
     "gsap": "2.0.2",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "panzoom": "^7.1.0",
     "popper.js": "^1.14.3",
     "sass-mq": "^4.0.2",
