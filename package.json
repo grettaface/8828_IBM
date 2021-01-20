@@ -16,7 +16,7 @@
     "@babel/preset-env": "^7.5.5",
     "bootstrap": "^4.1.1",
     "donutty": "^1.2.3",
-    "gsap": "2.0.2",
+    "gsap": "3.6.0",
     "jquery": "^3.3.1",
     "panzoom": "^7.1.0",
     "popper.js": "^1.14.3",
