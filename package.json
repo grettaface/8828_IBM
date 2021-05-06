@@ -22,7 +22,7 @@
     "popper.js": "^1.14.3",
     "sass-mq": "^4.0.2",
     "typewriter-effect": "^2.10.0",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
